@@ -6,6 +6,29 @@ Build something *awesome*, something that you would be proud to keep in your roo
 
 Let's get teenagers to be the ones to make the best projects yet.
 
+## Overview
+Here's an overall list of what is allowed / isn't allowed for your project! Keep in mind these are just guidelines
+
+Generally speaking, each project must be closer to a product than a demo - that doesn't mean go ultra advertising mode, but that does mean that a breadboarded together project with no case *doesn't* count.
+
+### Complexity
+A custom project should include each of the following:
+
+- A case / cover / some sort of physical part
+- A custom PCB (unless you REALLY don't need it)
+- Ideally some sort of software config / cronjob / tool that is beyond the defaults of whatever you're doing
+
+### Originality
+
+Almost every idea out there has been thought of before - what matters is that when designing it, which means that you do *not* do the following:
+
+- Directly copy paste schematics
+- Directly copy paste layouts
+- Directly copy paste entire programs
+- Directly copy paste 3D printed / manufactured models (reference parts are OK)
+- **In general, do not copy paste stuff directly - use them as references**
+
+
 ## Examples
 **Here are some examples of great projects by Hack Clubbers:**
 

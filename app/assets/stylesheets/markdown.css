@@ -21,7 +21,7 @@
 }
 
 .markdown-content h3 {
-    font-size: 1.5em; 
+    font-size: 1.75em; 
     font-weight: bold;
     color: #FFFFFF;
     margin-top: 1.5rem;
@@ -38,16 +38,6 @@
 .markdown-content p {
     font-size: large;
     margin-bottom: 1rem;
-}
-  
-.markdown-content a {
-    color: #007bff;
-    text-decoration: underline;
-}
-  
-.markdown-content a:hover {
-    color: #0056b3;
-    text-decoration: none;
 }
   
 .markdown-content ul {
@@ -105,14 +95,15 @@ div.markdown p:last-child {
 
 .markdown-content a {
     color: #f583e4; 
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold; 
     word-break: break-word; 
 }
 
 .markdown-content a:hover {
     color: #f1b6e8; 
-    text-decoration: none;
+    text-decoration: underline;
+    font-weight: extra-bold;
 }
 
 .markdown-content strong {
