@@ -4,7 +4,7 @@ Decided to make a custom project? Awesome! Right this way.
 
 Whatever that one project you've been thinking of doing forever - whether that be a custom 3D printer, a full mechanical keyboard, or something else - now's your chance to make that real
 
-Before you go crazy with ideas though - please be resourceful! This is **not** a free money glitch. [Hack Club](hackclub.com) is a financially limited non profit, and every dollar we can save together goes towards the next program.
+Before you go crazy with ideas though - please be resourceful! This is **not** a free money glitch. [Hack Club](https://hackclub.com) is a financially limited non profit, and every dollar we can save together goes towards the next program.
 
 Any questions? Join the #highway channel in slack!
 
