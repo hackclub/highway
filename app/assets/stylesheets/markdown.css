@@ -110,3 +110,18 @@ div.markdown p:last-child {
     font-weight: bold;
     color: #86cfe5;
 }
+
+.markdown-content pre {
+    background-color: #3c3672;
+    color: #ffffff;
+    padding: 1rem; 
+    border-radius: 8px; 
+    overflow-x: auto; 
+  }
+  
+.markdown-content code {
+    background-color: #3c3672; 
+    color: #ffffff;
+    padding: 0.2rem 0.4rem; 
+    border-radius: 4px;
+  }
