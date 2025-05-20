@@ -38,3 +38,11 @@
 
 .DS_Store
 # Ignore Mac system files
+
+# Ignore all projects
+/content/projects/*
+
+# But do NOT ignore the dev example project
+!/content/projects/hackclub/
+!/content/projects/hackclub/awesome-project/
+!/content/projects/hackclub/awesome-project/**

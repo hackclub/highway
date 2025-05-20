@@ -42,9 +42,34 @@ Each project you design that is approved gets you **6 points**, or **10 points**
 
 This is *the* most important part of the whole process! Journaling your progress is how to keep track of how your project is going. Beyond that, it's also a way to tell a story and have something to look back at many years down the line.
 
+At the top of your JOURNAL.md file, include this metadata:
+
+```
+---
+title: "Your Project Name"
+author: "Your name (name or slack username)"
+description: "Describe your project in a short sentence!"
+created_at: "2024-03-20"
+---
+```
+
+<br>
 Don't just journal your wins! It's much, *much* better to maintain a smaller, more consistent one every day - it'll capture a more realistic story to what things were really like. Fails are important
 
 Journaling is **mandatory** to get your submission approved! Poor quality journals will be rejected. 
+
+The general formatting of every journal entry should look something like this in markdown:
+
+```
+# June 8th: Got the screen to work!
+
+[actual journal content - what did you do?]
+
+[insert pictures of what you're working on!]
+
+**Total time spent: 2h**
+```
+<br>
 
 Do NOT have:
 

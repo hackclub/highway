@@ -33,3 +33,11 @@ Done your project + want to submit it to get your grant? Submit it in the form h
 Remember to read through the [submission guidelines](https://highway.hackclub.com/advanced/submitting) before submitting! 
 
 # Ready. Set. Build!
+
+---
+
+# Website development
+
+Ooooh, you're in the README to figure out how the actual highway website works? Sure!
+
+It's a standard rails codebase, but when you first start up you might want to run `bin/rails projects:clone` to download all the submissions.

@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   root "landing#index"
   resources :users
   get "/projects", to: "projects#index"
-  get "/projects/:repo/:project_name", to: "projects#show", as: :project
+  get "/projects/:user/:project_name", to: "projects#show", as: :project
 
   get "/info", to: "info#show"
 

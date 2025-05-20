@@ -1,19 +1,61 @@
-<div class="mt-16 md:mt-12 p-8 md:p-12">
-  
-  <div class = "">
-    <p class="font-bold text-3xl">Check out what others are building!</p>
-    <p class="font-bold opacity-70 mt-8"><i><%= pluralize(@projects.count, "project") %> <%= @projects.count == 1 ? "has" : "have" %> been started:</i></p>
+<div class="mt-20 md:mt-12 p-8 md:p-12">
 
-    <div class="grid md:grid-cols-3 gap-4 mt-4 sm:grid-cols-2 grid-cols-1">
-      <% @projects.each do |project| %>
-        <%= link_to project_path(repo: project.repo, project_name: project.project_name), class: "block bg-[#2E2A54] border-2 border-[#544FFF] max-w-4xl py-8 px-8 rounded-lg text-white hover:bg-[#3A3A6D] transition duration-100 transition-transform hover:scale-102" do %>
-          <h1 class="text-2xl"><%= project.name %> <span class="text-base text-[#96ABF9]">(<%= project.github_slug %>)</span></h1>
-          <p class="mb-2">created by <span class="text-[#96ABF9]">[<%= project.author %>]</span></p>
-          <p class="opacity-70"><%= project.description %></p>
-          <p class="opacity-70 mt-2">Started on <%= project.formatted_created_at %></p>
-        <% end %>
-      <% end %>
+  <p class="font-dystopian text-4xl flex flex-col justify-center text-center">Project Gallery</p>
+  
+  <% if @projects.any? %>
+    <div class="flex flex-col justify-center text-center">
+      <p class="opacity-70">Check out what others are building!</p>
+      <p class="opacity-70"><i><%= pluralize(@projects.count, "project") %> <%= @projects.count == 1 ? "has" : "have" %> been started:</i></p>
     </div>
+  <% else %>
+    <p class="font-bold text-3xl">Projects are loading!</p>
+    <p class="font-bold opacity-70 mt-8"><i>Hang tight and try again in 30 seconds.</i></p>
+    <% unless Rails.env.production? %>
+      <p class="font-bold opacity-70 mt-8"><i>Did you forget to run <code>bin/rails projects:clone</code>? ;-P</i></p>
+    <% end %>
+  <% end %>
+
+  <div class="grid md:grid-cols-3 gap-4 mt-4 sm:grid-cols-2 grid-cols-1">
+    <% @projects.each do |project| %>
+      <div class="bg-[#2E2A54] border-2 border-[#544FFF] rounded-lg text-white hover:bg-[#3A3A6D] transition duration-100 transition-transform hover:scale-102 p-8 h-full flex flex-col">
+        <% if project.has_journal? %>
+          <%= link_to project_path(user: project.user, project_name: project.project_name), class: "block mb-2" do %>
+            <h1 class="text-2xl font-bold"><%= project.name.truncate(25) %></h1>
+          <% end %>
+        <% else %>
+          <h1 class="text-2xl font-bold mb-2">
+            <%= project.name.truncate(25) %>
+          </h1>
+          <p class="text-sm font-bold text-yellow-300">⚠️ This project lacks a <code>journal.md</code> file.</p>
+        <% end %>
+        <%= link_to project.github_repo, target: "_blank", class: "text-base text-[#96ABF9] text-sm rounded py-1 inline-block break-words" do %>
+          [<%= project.github_slug %>]
+        <% end %>
+        <div class="mb-4 text-[#b3aaff] text-sm opacity-70">
+          Created by
+          <% if project.author.present? %>
+            <%= link_to project.user_link, target: "_blank", class: "text-base text-[#96ABF9] text-sm rounded px-2 py-1 inline-block" do %>
+              [<%= project.author %>]
+            <% end %>
+          <% else %>
+            <%= project.author_display %>
+          <% end %>
+          <% if project.has_creation_date? %>
+            <span class="ml-2">• Started on <%= project.formatted_created_at %></span>
+          <% end %>
+        </div>
+        <% if project.description.present? %>
+          <p class="opacity-80 mt-auto"><%= project.description.truncate(120) %></p>
+        <% end %>
+        <% if Rails.env.development? %>
+          <summary>
+            <details>
+              <%= project.inspect %>
+            </details>
+          </summary>
+        <% end %>
+      </div>
+    <% end %>
   </div>
 
 </div>

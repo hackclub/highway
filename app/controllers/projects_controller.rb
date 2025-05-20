@@ -1,14 +1,13 @@
 class ProjectsController < ApplicationController
-  include MarkdownRenderable
-  require "yaml"
-
   def index
     @projects = Project.all
+
+    CloneProjectsJob.perform_later if @projects.empty?
   end
 
   def show
-    @project = Project.find(params[:repo], params[:project_name])
-    render_not_found unless @project
+    @project = Project.find(params[:user], params[:project_name])
+    render_not_found unless @project.present?
   end
 
   def new
