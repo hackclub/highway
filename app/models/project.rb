@@ -111,10 +111,11 @@ class Project
   end
 
   def self.find(user, project_name)
-    file_path = Rails.root.join("content/projects", user, project_name, "journal.md")
-    return nil unless File.exist?(file_path)
+    dir = Rails.root.join("content/projects", user.downcase, project_name.downcase)
+    journal_path = Dir.glob(File.join(dir, "*")).find { |f| File.basename(f).downcase == "journal.md" }
+    return nil unless journal_path
 
-    content = File.read(file_path)
+    content = File.read(journal_path)
     metadata, markdown_content = parse_frontmatter(content)
 
     new(

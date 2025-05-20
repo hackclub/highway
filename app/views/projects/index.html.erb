@@ -1,7 +1,19 @@
-<div class="mt-16 md:mt-12 p-8 md:p-12">
+<div class="mt-20 md:mt-12 p-8 md:p-12">
+
+  <p class="font-dystopian text-4xl flex flex-col justify-center text-center">Project Gallery</p>
   
-  <p class="font-bold text-3xl">Check out what others are building!</p>
-  <p class="font-bold opacity-70 mt-8"><i><%= pluralize(@projects.count, "project") %> <%= @projects.count == 1 ? "has" : "have" %> been started:</i></p>
+  <% if @projects.any? %>
+    <div class="flex flex-col justify-center text-center">
+      <p class="opacity-70">Check out what others are building!</p>
+      <p class="opacity-70"><i><%= pluralize(@projects.count, "project") %> <%= @projects.count == 1 ? "has" : "have" %> been started:</i></p>
+    </div>
+  <% else %>
+    <p class="font-bold text-3xl">Projects are loading!</p>
+    <p class="font-bold opacity-70 mt-8"><i>Hang tight and try again in 30 seconds.</i></p>
+    <% unless Rails.env.production? %>
+      <p class="font-bold opacity-70 mt-8"><i>Did you forget to run <code>bin/rails projects:clone</code>? ;-P</i></p>
+    <% end %>
+  <% end %>
 
   <div class="grid md:grid-cols-3 gap-4 mt-4 sm:grid-cols-2 grid-cols-1">
     <% @projects.each do |project| %>
@@ -16,7 +28,7 @@
           </h1>
           <p class="text-sm font-bold text-yellow-300">⚠️ This project lacks a <code>journal.md</code> file.</p>
         <% end %>
-        <%= link_to project.github_repo, target: "_blank", class: "text-base text-[#96ABF9] text-sm rounded px-2 py-1 inline-block" do %>
+        <%= link_to project.github_repo, target: "_blank", class: "text-base text-[#96ABF9] text-sm rounded py-1 inline-block break-words" do %>
           [<%= project.github_slug %>]
         <% end %>
         <div class="mb-4 text-[#b3aaff] text-sm opacity-70">

@@ -7,7 +7,7 @@ class ProjectsController < ApplicationController
 
   def show
     @project = Project.find(params[:user], params[:project_name])
-    not_found unless @project
+    render_not_found unless @project.present?
   end
 
   def new

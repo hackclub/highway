@@ -9,6 +9,8 @@ class CloneProjectsJob < ApplicationJob
       url = "#{url}.git" unless url.end_with?(".git")
 
       org, repo = url.gsub("https://github.com/", "").gsub(".git", "").split("/")
+      org = org.downcase
+      repo = repo.downcase
 
       target_dir = File.join(Rails.root, "content", "projects", org, repo)
 
