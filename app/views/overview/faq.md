@@ -5,7 +5,7 @@ Welcome to the FAQ! This page attempts to point you to the right place when you 
 As always, if *anything* is unclear, ask in #highway for help!
 
 ### How can I get started with a custom project?
-Read the [custom projects](/advanced) tab carefully. Everything is there
+Read the [custom projects](/advanced) tab carefully. Everything is there.
 
 ### How are hours tracked?
 For starter projects, they're not!
@@ -25,6 +25,10 @@ It's hard to say without seeing your project, but generally speaking, as long as
 If you get rejected, don't fret! Edit your project, ask your peers in #highway for help, and then resubmit - most mistakes are very easy to fix
 
 There is absolutely *no* limit to the number of projects we can accept - the more the better!
+
+### How many projects can I make?
+
+As many as you want! The funding is also *per* project, not per person. 
 
 ### Are group projects allowed for Highway?
 
