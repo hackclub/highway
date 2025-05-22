@@ -1,4 +1,5 @@
 projects:
+  - "https://github.com/meepodeep/OrangePiDeck"
   - "https://github.com/devramsean0/Nixie-Pendant"
   - "https://github.com/ponderslime/pip-boy"
   - "https://github.com/im-udxt/ModularMacro"
