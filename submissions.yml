@@ -1,4 +1,6 @@
 projects:
+  - "https://github.com/souptik-samanta/WalkieTalkie"
+  - "https://github.com/cube-king/fastfoodfinder"
   - "https://github.com/lsyzg/NeoPod"
   - "https://github.com/Navdeep-Codes/Arctron-Arm"
   - "https://github.com/Shebbel/Multi_macropad"
@@ -18,7 +20,7 @@ projects:
   - "https://github.com/Zylve/cuber"
   - "https://github.com/Ventengo1/ServoRocket"
   - "https://github.com/Horizon-Avionics/Horizon-Avionics-Hardware"
-  - "https://github.com/scooterthedev/haptic-keyboard"
+  - "https://github.com/scooterthedev/usbc-reader"
   - "https://github.com/eddyzow/cold-brew-express"
   - "https://github.com/TheEternalComrade/The-Prince-Keeb"
   - "https://github.com/Broodierlake140/Nerf-car"
@@ -123,6 +125,7 @@ projects:
   - "https://github.com/pizzalover125/hackboard"
   - "https://github.com/Beenana02/Krill-Kam"
   - "https://github.com/Toyotra/HEXABOSS"
+  - "https://github.com/scattercat-123/Astra-the-AI-Dog"
   - "https://github.com/bigbainc/macropad"
   - "https://github.com/regular030/Keyboard-Saturn"
   - "https://github.com/snippyrow/-816-board"
@@ -140,4 +143,6 @@ projects:
   - "https://github.com/AnkushRoy-code/SplitWave"
   - "https://github.com/Sahil321-Coder/AI-Desktop-Assistant"
   - "https://github.com/Prilex1/HAB-OBC"
+  - "https://github.com/Fastestkyo/5-axis-printer"
   - "https://github.com/2Mon/battlebot"
+
