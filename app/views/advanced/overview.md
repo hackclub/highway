@@ -16,7 +16,6 @@ Before you go crazy with ideas though - please be resourceful! This is **not** a
 
 Any questions? Ask in the [#highway](https://hackclub.slack.com/archives/C08Q1H6D79B) channel in slack!
 
-
 ---
 
 ## Here's how it works:
@@ -61,7 +60,6 @@ As long as your PR doesn't have any conflicts, we'll merge it and your submissio
 
 Start designing your project! Check out the resources on the left side for inspo, part sourcing, etc
 
-
 ### 3. Submit your design
 
 Submit to https://forms.hackclub.com/highway
@@ -71,7 +69,6 @@ Submit to https://forms.hackclub.com/highway
 ### 4. Get a grant to build it!
 
 Once you're approved, you'll get an HCB Credit Card with the funding you submitted for, and a *half* of the points that your project is worth
-
 
 ### Submit your finished project
 
