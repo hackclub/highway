@@ -32,8 +32,6 @@ Design & build hardware projects. You can either build fully [Custom Projecs](/a
 
 Every week, we'll host events like Speedruns, Game Nights, AMAs, and Showcases! 
 
-First one up is the **Kickoff call on Friday, May 23rd at 7:00PM EST**. Get your 1st point for free!
-
 See the [Events](/events) tab for an up-to-date list.
 
 ---
