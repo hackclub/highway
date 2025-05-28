@@ -6,16 +6,15 @@ Whatever that one project you've been thinking of doing forever - whether that b
 
 You can choose from one of the following tiers:
 
-- A 4 point project with up to $50 USD in funding
-- A 6 point project with up to $150 USD in funding
-- A 10 point project with up to $350 USD in funding
+- 4 point project with up to $50 USD in funding
+- 6 point project with up to $150 USD in funding (ex: keyboard, rp2040 devboard keychain)
+- 10 point project with up to $350 USD in funding (ex: 3D printer, antweight combat robot)
 
 The more points a project is worth, the higher the complexity & quality requirements will be. Please read over the [Project guidelines](/advanced/project-guidelines) to get a better idea of what they are
 
 Before you go crazy with ideas though - please be resourceful! This is **not** a free money glitch. [Hack Club](https://hackclub.com) is a financially limited non profit, and every dollar we can save together goes towards the next program.
 
-Any questions? Ask in the #highway channel in slack!
-
+Any questions? Ask in the [#highway](https://hackclub.slack.com/archives/C08Q1H6D79B) channel in slack!
 
 ---
 
@@ -34,7 +33,6 @@ Create a repository for your project! Most people use GitHub, but you can use an
 
 Next, start a journal by creating a JOURNAL.md file in your repo. At the very top, include the following data:
 
-
 ```
 ---
 title: "Your Project Name"
@@ -43,7 +41,8 @@ description: "Describe your project in a short sentence!"
 created_at: "2024-03-20"
 ---
 ```
-Journaling is mandatory for custom projects
+<br>
+Journaling is mandatory for custom projects.
 
 #### 3. Make a PR to add it to the gallery
 
@@ -54,13 +53,12 @@ projects:
   - "https://github.com/Dongathan-Jong/SpotifyDisplay"
   - "your_repo_link"
 ```
-
+<br>
 As long as your PR doesn't have any conflicts, we'll merge it and your submission will be added to the project list! Other people will be able to see your journal & see what you're up to.
 
 ### 2. Start designing!
 
 Start designing your project! Check out the resources on the left side for inspo, part sourcing, etc
-
 
 ### 3. Submit your design
 
@@ -71,7 +69,6 @@ Submit to https://forms.hackclub.com/highway
 ### 4. Get a grant to build it!
 
 Once you're approved, you'll get an HCB Credit Card with the funding you submitted for, and a *half* of the points that your project is worth
-
 
 ### Submit your finished project
 
