@@ -4,7 +4,7 @@
 
 **Hack Club is a registered 501(c)(3) nonprofit organization, whose mission is to foster a generation of coders, makers, builders, and founders. Hack Club's online community has a network of more than 50,000 high school students from around the world.**
 
-Hack Club programs are free and accessible to all students. Highway to Undercity is a Hack Club program, where students are encouraged and funded to create real hardware projects.
+Hack Club programs are free and accessible to all students. Highway to Undercity is a Hack Club program, where students are supported to create real hardware projects.
 
 Hack Club is supported by many notable figures in the tech industry, including GitHub founder Tom Preston-werner, Dell Founder Michael Dell, as well as executives at Apple, Facebook, Microsoft, and GitHub.
 
@@ -59,7 +59,7 @@ When your child reaches 8 points, we will send them a Travel Form to fill out.
 
 If your child is traveling internationally, they may need either an [ESTA](https://www.cbp.gov/travel/international-visitors/esta) or a visa based on their country of citizenship. Meeting the requirements to enter the United States is the responsibility of the attendee, and you are encouraged to do your own research.
 
-If you require a Letter of Invitation from Hack Club, your child can let us know in the Travel Form.
+If your child requires a Letter of Invitation from Hack Club, they can let us know in the Travel Form.
 
 Visa expenses will not be paid by Hack Club under any circumstances.
 

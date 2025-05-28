@@ -2,23 +2,21 @@
 
 If you're done your project, here's how to submit!
 
-## Check that you have everything necessary
+**Before continuing, please make sure your project is [properly shipped](/advanced/shipping), otherwise it *will* not be accepted**
+
+## 
 
 Before submitting, please make sure of the following:
 
-- **Your GitHub repository has all of the necessary files:**
+- **Your project is [shipped](/advanced/shipping)**
+- **Your project has a journal in the [gallery](/projects)
+- **Your GitHub repository has all of your project files:**
     - a BOM in CSV format
     - the source files for your PCB, if you have one
-    - the source files for your CAD model,
+    - the source files for your CAD model, if you have one
     - ANY other files that are part of your project
 - **In your GitHub README.md file:**
     - Description of your project
-    - Your BOM in table format, include as columns:
-        - Item name
-        - What the item is for in your project
-        - Item source
-        - Item price (include shipping + taxes)
-        - Total price
     - Screenshot of your project - schematic, PCB, CAD, whatever you made!
 - **In your GitHub journal.md file:**
     - Your journals! 
