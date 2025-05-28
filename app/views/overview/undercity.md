@@ -19,7 +19,7 @@ All meals (from dinner on Friday, to breakfast on Monday) will be provided durin
 - [Juice](https://www.youtube.com/watch?v=fuTlToZ1SX8): make a game, spend a week in Shanghai!
 - [Scrapyard](https://www.youtube.com/watch?v=8iM1W8kXrQA&t=1s): a 24h hackathon to build your scrappiest ideas
 - [Apocalypse](https://www.youtube.com/watch?v=QvCoISXfcE8): a 44h hackathon where you build to survive a zombie apocalypse
-- [The Boreal Express](https://www.youtube.com/watch?v=hiG3fYq3xUU): a 7 day hackathon on a train across Canada
+- [The Boreal Express](https://www.youtube.com/watch?v=hiG3fYq3xUU): a 7-day hackathon on a train across Canada
 
 ## Travel
 
@@ -51,13 +51,6 @@ You can also earn additional stipends for points above 12.
 A needs-based stipend application will also be available. 
 
 Travelling by car, bus, or train? The [Hack Club Gas Fund](https://gas.hackclub.com/) can reimburse your costs! However, you'll still need an invite to come.
-
-#### Parents
-
-We will have parent information calls on Zoom a few weeks before the event!
-
-Note that Hack Club will not pay for parent travel. 
-
 
 <br>
 <img src="/undercitygate.png" style="width: full" class=""></img>
