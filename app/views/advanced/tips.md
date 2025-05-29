@@ -3,4 +3,4 @@ Here's a quick braindump of useful stuff that I've found useful over the years. 
 
 ## General
 
-- [Excalidraw](excalidraw.com) is an awesome site for whipping up really quick sketches
+- [Excalidraw](https://excalidraw.com) is an awesome site for whipping up really quick sketches
