@@ -10,3 +10,7 @@
  */
 
 @import "landing";
+
+body {
+    font-family: "Poppins", sans-serif;
+}
