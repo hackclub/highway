@@ -10,11 +10,11 @@ Hack Club is supported by many notable figures in the tech industry, including G
 
 #### What is Highway?
 
-Highway is a hardware electronics grant program where we give out grants to teenagers to build hardware projects! From now until July 31, your child can make as many hardware projects as they want - and we'll fund up to 350 USD per project.
+Highway is a hardware electronics program where we give out grants to teenagers to build hardware projects! From now until July 31, your child can make as many hardware projects as they want - and we'll fund up to 350 USD per project.
 
 #### What is Undercity?
 
-Undercity is a 4-day, in-person hardware electronics event for high school students at GitHub HQ! Your child will get together with other teens from all over the world to try to make an electronics project in under 72 hours.
+Undercity is a 4-day, in-person hardware hackathon event for high school students at GitHub HQ! Your child will get together with other teens from all over the world to try to make an electronics project in under 72 hours.
 
 **Undercity is invite-only**; in order to recieve an invitation, your child will need to get to 12 points through Highway. You earn points through making projects!
 
@@ -25,9 +25,15 @@ Undercity is a 4-day, in-person hardware electronics event for high school stude
 - [Apocalypse](https://www.youtube.com/watch?v=QvCoISXfcE8): a 44h event where you build to survive a zombie apocalypse
 - [The Boreal Express](https://www.youtube.com/watch?v=hiG3fYq3xUU): a 7-day event on a train across Canada
 
+**Hackathons are lifechanging** - it's the turning point for a lot of people to fall in love with electronics. Meeting so many people from different countries and being able to have 1-on-1, in-person conversations is really eye-opening; especially for most teenagers who have yet to see much of the world. 
+
+Undercity is a once-in-a-lifetime opportunity where your child will be able to meet very skilled teenagers from around the world, work with them to build a project together, and show off what they made to industry leaders - all in a safe and friendly enviorment. It's the largest hardware hackathon, and we will provide the proper tools and equipment (soldering station, 3d printers, hundreds of microcontrollers) for your child to use.
+
 #### What are the costs associated?
 
 Participation is entirely free! Meals and activities during Undercity are covered. Participants are generally responsible for their own travel to San Francisco, although we do offer travel stipends.
+
+<img src="/hackathons.png" style="width: full" class=""></img>
 
 ## Safety
 
@@ -35,7 +41,7 @@ Hack Club is committed to creating a safe and comfortable environment for studen
 
 #### On security
 
-There will be security guards 24/7 around the venue from both Hack Club and GitHub. Your child will not be able to leave the venue unless they have a freedom wavier signed.
+There will be security guards 24/7 around the venue from both Hack Club and GitHub. Your child will not be able to leave the venue unless they have a freedom wavier signed. There will be curfew; nobody will be allowed in or out of the venue at the scheduled time block.
 
 Staff will be present at all times to supervise. Everyone who enters the venue will be ID checked.
 
@@ -50,10 +56,19 @@ This is a safe space for all students. We aim for a gender-balanced community, a
 - Their hardware project from Highway to showcase it to others! (if possible)
 - Clothes for 3 nights
 - Toiletries - toothbrush, toothpaste, any hygiene products
+- Sleeping bag 
+
+We'll send out a more detailed packing list closer to event!
+
+#### How do I know this is legit?
+
+Hack Club has run many events before - you can watch recaps on our [Youtube channel](https://www.youtube.com/@HackClubHQ). We have many donors that make programs like this possible. This event is supported by GitHub, who is hosting us in their headquarters for this event. Tom Preston-Werner, co-founder of GitHub, has also given us a [shoutout on Twitter](https://x.com/mojombo/status/1927596252507619426).
 
 ## Travel
 
 When your child reaches 8 points, we will send them a Travel Form to fill out. 
+
+If you're arriving by flight, land at SFO airport.
 
 #### Visa information
 
@@ -79,4 +94,4 @@ Travelling by car, bus, or train? The [Hack Club Gas Fund](https://gas.hackclub.
 
 If you have any questions, please don't hesitate to email: alexren@hackclub.com
 
-We will also have multiple Parents Calls on Zoom, a few weeks before the event, for more general information.
+We will also have multiple Parents Calls on Zoom for more general information, a few weeks before the event.

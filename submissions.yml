@@ -1,5 +1,7 @@
 projects:
+  - "https://github.com/pizzalover125/thing"
   - "https://github.com/zaid45645/zoltron-v1"
+  - "https://github.com/xsollwa/remote-assist-hand"
   - "https://github.com/CodewMilan/byteboard"
   - "https://github.com/dave9123/lenie"
   - "https://github.com/souptik-samanta/WalkieTalkie"
@@ -187,3 +189,7 @@ projects:
   - "https://github.com/toby-alpha/beach-rescue-drone"
   - "https://github.com/samatua1221-2896/Arm-Assistant"
   - "https://github.com/GearBoxFox/highway-qrp-sdr"
+  - "https://github.com/Arrow-07/NexoBT"
+  - "https://github.com/bernininini/bean-cake"
+  - "https://github.com/jedim101/arm"
+  - "https://github.com/daamin909/threedeeprinter"
