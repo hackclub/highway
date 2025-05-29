@@ -21,6 +21,8 @@ All meals (from dinner on Friday, to breakfast on Monday) will be provided durin
 - [Apocalypse](https://www.youtube.com/watch?v=QvCoISXfcE8): a 44h hackathon where you build to survive a zombie apocalypse
 - [The Boreal Express](https://www.youtube.com/watch?v=hiG3fYq3xUU): a 7-day hackathon on a train across Canada
 
+<img src="/hackathons.png" style="width: full" class=""></img>
+
 ## Travel
 
 Undercity opening ceremony will start around 7pm on Friday. Plan to arrive a few hours before - check-in will start in the afternoon! It'll end Monday at noon.
