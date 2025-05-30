@@ -14,17 +14,22 @@ If you've *never* done hardware before, this is *your* opportunity to get starte
 ---
 ### 1. Build hardware projects
 
-Design & build hardware projects. You can either build fully [Custom Projecs](/advanced) (4/6/10 points) or [Starter Projects](/starter-projects) (4 points), or a mix of both!
+Design custom projects. [Submit](/advanced/submitting) them. Get approved. Receive a credit card of up to $350 USD. Buy the parts and build it. Repeat
 
-[Starter Projects](/starter-projects) are existing Hack Club programs that teach you how to make one specific thing, i.e the macropad below. Design your own completely custom one, and we'll ship you the parts to build it.
+There's four tiers:
 
-<img src="https://hackpad.hackclub.com/orpheuspadpic.png" style="max-width: 400px;"></img>
+- **Tier 3:** get 4 points, up to $50 USD
+- **Tier 2:** get 6 points, up to $150 USD
+- **Tier 1:** get 10 points, up to $350 USD
 
-[Custom projects](/advanced) are fully self-directed! You'll be responsible for all the research, and in return, you'll get a debit card of up to $350* USD to spend on your project! *You must journal your progress while working on custom projects*
+Each tier has progressively harder guidelines. Check out the [Custom projects](/advanced) tab for all the info you need - including project guidelines!
 
-(check out the top bar to see more about each path!)
 
-**You can make an unlimited amount of projects, so get building!**
+Head on over to the [custom projects](/advanced) are fully self-directed! You'll be responsible for all the research, and in return, you'll get a debit card of up to $350* USD to spend on your project! *You must journal your progress while working on custom projects*
+
+*You can make an unlimited amount of projects, so get building!*
+
+**If you're a complete beginner, head on over to check out our [starter projects](/getting-started/starter-projects)! They're designed to help you get jumpstarted**
 
 ---
 
