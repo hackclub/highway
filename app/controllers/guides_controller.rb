@@ -1,0 +1,2 @@
+class GuidesController < MarkdownController
+end

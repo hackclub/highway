@@ -59,5 +59,8 @@ Rails.application.routes.draw do
   get "/advanced/:page", to: "advanced#show", as: "advanced_page"
   get "/advanced/", to: redirect("/advanced/overview")
 
+  get "/guides/:page", to: "guides#show", as: "guides_page"
+  get "/guides/", to: redirect("/guides/overview")
+
   get "/events", to: "events#index"
 end
