@@ -1,0 +1,5 @@
+- name: Enviro Box
+  description: >
+    It is designed for indoor places such as homes and classrooms. It measures the levels of carbon monoxide, carbon dioxide, fine particles such as dust in the air, temperature, and humidity. The device is equipped with an audio and visual alarm system when any danger is detected. The levels are displayed instantly on a small screen. All measurements are permanently recorded on an SD card to be reviewed when needed.
+  team:
+    - Ibrahim Ahmed
