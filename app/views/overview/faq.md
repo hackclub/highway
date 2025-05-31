@@ -4,13 +4,20 @@ Welcome to the FAQ! This page attempts to point you to the right place when you 
 
 As always, if *anything* is unclear, ask in #highway for help!
 
+### When is the last day to submit a project design?
+July 31st, 2025.
+
+### When is the last day to get enough points to qualify for Undercity?
+July 10th, 2025
+
+### When is the last day to submit a completed build to be reimbursed for undercity?
+August 7th, 2025. Hard deadline.
+
 ### How can I get started with a custom project?
 Read the [custom projects](/advanced) tab carefully. Everything is there.
 
 ### How are hours tracked?
-For starter projects, they're not!
-
-*For custom projects*, **you need to journal**. Please check out the [custom projects](/advanced) tab for more info on journaling!
+Journaling! Every time you work on a project, you'll need to log what you did
 
 ### How will I get my 3D printed parts?
 Through **printing legion**! It's an international network of Hack Clubbers 3D printing for each other, sponsored by Polymaker (website coming soon - hang tight!)
