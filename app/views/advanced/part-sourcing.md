@@ -62,10 +62,13 @@ Arduinos are fairly outdated by todays standards
     * [Silverline Electronics](https://www.silverlineelectronics.in/)
     * [RoboSap](https://robosap.in/)
     * [RoboticsDNA](https://roboticsdna.in/)
-    * [EBhoot](https://ebhoot.in/) 
+    * [EBhoot](https://ebhoot.in/)
+    * [Electronicscomp](https://www.electronicscomp.com/)
+    * [Sharvi Electronics](https://sharvielectronics.com/)
     * [Novo3D](https://novo3d.in/)
   * 3D printed parts (3D printing as a Service, JLC3DP-alike)
     * [3Ding](https://www.3ding.in/)
+    * 
 
 > confirmed more vendors? wanna add specific notes for your country? contribute [here](https://github.com/hackclub/highway/edit/main/app/views/advanced/part-sourcing.md)!! You'd be helping a ton of people!
 
