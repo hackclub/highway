@@ -6,7 +6,6 @@ Whatever that one project you've been thinking of doing forever - whether that b
 
 You can choose from one of the following tiers:
 
-- 4 point project with up to $50 USD in funding
 - 6 point project with up to $150 USD in funding (ex: keyboard, rp2040 devboard keychain)
 - 10 point project with up to $350 USD in funding (ex: 3D printer, antweight combat robot)
 
