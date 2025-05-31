@@ -1,6 +1,6 @@
 # Guides
 
-Welcome! This is a tab where Hack Clubbers (just like you!) can write guides on projects that you've previously built. 
+Welcome! This is a tab where Hack Clubbers (just like you!) can write tips n' tricks, guides, and pretty much any info on projects that they've previously built. 
 
 The goal is to have a collection of resources that grows as highway goes on.
 
@@ -10,5 +10,5 @@ The first one is on how to make a Game Console - check it out on the sidebar!
 
 To contribute, make a markdown file in the app/views/guides folder! Put your guide in there. Afterwards, make a PR with your changes!
 
-**In return, you'll get rewarded 1 free point for adding a guide**
+**In return, you'll get rewarded 1 free point for adding *finished* a guide**
 
