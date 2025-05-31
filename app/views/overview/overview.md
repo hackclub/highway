@@ -18,9 +18,9 @@ Design custom projects. [Submit](/advanced/submitting) them. Get approved. Recei
 
 There's four tiers:
 
-- **Tier 3:** get 4 points, up to $50 USD
+- **Tier 1:** get 4 points, up to $50 USD
 - **Tier 2:** get 6 points, up to $150 USD
-- **Tier 1:** get 10 points, up to $350 USD
+- **Tier 3:** get 10 points, up to $350 USD
 
 Each tier has progressively harder guidelines. Check out the [Custom projects](/advanced) tab for all the info you need - including project guidelines!
 
