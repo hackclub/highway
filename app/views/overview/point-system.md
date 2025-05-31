@@ -21,10 +21,15 @@ As always, if you have any questions, ask in #highway-help!
     - **Custom projects**:  2-5 points
 
 - Attend a Highway event
-    - Generally, 1 point
-    - Attending the Kickoff Call will give you 1 point!
+    - Sometimes 1 point (dependent on type of event)
     - Check the [Events](/events) tab for more!
+
+<img src="/swagsystem.png" style="width: 80%" class=""></img>
+
+<br>
 
 ## FAQ
 
-**Can I transfer
+Coming soon!
+
+<!-- **Can I transfer -->
