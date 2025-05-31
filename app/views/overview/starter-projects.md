@@ -35,7 +35,7 @@ It'll walk you through the process step-by-step of setting up the software, plac
 
 [solder.hackclub.com](https://solder.hackclub.com)
 
-In return, you'll get a $5 grant to uby your PCB and a kit of hardware components to play around with
+In return, you'll get a $5 grant to buy your PCB and a kit of hardware components to play around with
 
 <!-- *solder takes on average 1-5 hours to complete* -->
 

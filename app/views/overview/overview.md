@@ -16,7 +16,7 @@ If you've *never* done hardware before, this is *your* opportunity to get starte
 
 Design custom projects. [Submit](/advanced/submitting) them. Get approved. Receive a credit card of up to $350 USD. Buy the parts and build it. Repeat
 
-There's four tiers:
+There's three tiers:
 
 - **Tier 3:** get 4 points, up to $50 USD
 - **Tier 2:** get 6 points, up to $150 USD
