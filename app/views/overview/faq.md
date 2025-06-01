@@ -67,7 +67,8 @@ Yup! This is for everyone, irrespective of whether or not they can come to Under
 
 ### Can points be used for something else?
 
-Not as of right now. For those who get *above* 12 points, we *might* have some special swag planned. No promises.
+Not as of right now. There are additional rewards for those who get *above* 12 points though. Check out the [point system](/getting-started/point-system) tab for more information on that.
 
 ### What if my project costs more than $350? Can I pay for the difference myself?
+
 Yes!
