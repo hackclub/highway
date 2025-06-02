@@ -10,6 +10,9 @@ July 31st, 2025.
 ### When is the last day to get enough points to qualify for Undercity?
 July 10th, 2025
 
+### What's the difference between hackpad and a 4-point starter project?
+With hackpad, we source all the parts for you and send you a kit. With a 4-point starter, you have to find where to get all the components yourself
+
 ### When is the last day to submit a completed build to be reimbursed for undercity?
 August 7th, 2025. Hard deadline.
 
