@@ -8,6 +8,8 @@ They're called YSWSes, short for You Ship, We Ships. You ship a design, we'll sh
 
 *Starter projects will automatically count for points once approved. Submission instructions are on their relative websites*
 
+You can only do a starter project once, sorry!
+
 ---
 
 ## Hackpad - 4 points
