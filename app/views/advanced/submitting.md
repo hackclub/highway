@@ -9,7 +9,7 @@ If you're done your project, here's how to submit!
 Before submitting, please make sure of the following:
 
 - **Your project is [shipped](/advanced/shipping)**
-- **Your project has a journal in the [gallery](/projects)
+- **Your project has a journal in the [gallery](/projects)**
 - **Your GitHub repository has all of your project files:**
     - a BOM in CSV format
     - the source files for your PCB, if you have one
@@ -26,12 +26,14 @@ Before submitting, please make sure of the following:
 
 **Submit here:** [https://forms.hackclub.com/highway](https://forms.hackclub.com/highway)
 
-It'll send over your project to our queue to be approved!
+It'll send over your project to our queue to be approved! You can check all the reviews on our Slack Canvas.
 
-We'll try to get back to you within a few days. 
+Link [here](https://hackclub.slack.com/docs/T0266FRGM/F08TXP0S1GB)
+
+We'll try to get back to you within 3-4 weekdays. 
 
 ## Next steps
 
-If you get approved, you'll get an email to let you know! You'll get a follow-up form asking for your address & personal info
+If you get approved, you'll get pinged on slack to 
 
-**If it gets rejected, you'll have to wait 1 week before submitting another review.** Make it better while you're waiting!
+**If it gets rejected, you'll have to wait 1 week before being re-reviewed. DO NOT FILL OUT A NEW FORM, 

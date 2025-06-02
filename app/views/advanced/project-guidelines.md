@@ -9,7 +9,23 @@ Let's get teenagers to be the ones to make the best projects yet.
 ## Overview
 Here's an overall list of what is allowed / isn't allowed for your project! Keep in mind these are just guidelines
 
-Generally speaking, each project must be closer to a product than a demo - that doesn't mean go ultra advertising mode, but that does mean that a breadboarded together project with no case *doesn't* count.
+Generally speaking, each project must be closer to a product than a demo - that doesn't mean go ultra advertising mode, but that does mean that a breadboarded together project with no case *doesn't* count
+
+I want to make it clear that there is **no** idea
+
+For the sake of this guide, we're going to use 
+
+---
+
+## Tiers
+
+### 4 points
+
+### 6 points
+
+### 10 points
+
+---
 
 ### Complexity
 A custom project should include each of the following:
