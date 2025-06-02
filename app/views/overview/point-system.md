@@ -2,7 +2,7 @@
 
 Points are the currency of Highway! Here's everything you need to know about them. 
 
-As always, if you have any questions, ask in #highway-help!
+As always, if you have any questions, ask in #highway!
 
 *This page will be updated as more questions get asked.*
 
@@ -30,6 +30,8 @@ As always, if you have any questions, ask in #highway-help!
 
 ## FAQ
 
-Coming soon!
+**Can I transfer points between friends?**
+no!
 
-<!-- **Can I transfer -->
+**Can I do starter projects multiple times?**
+no!
