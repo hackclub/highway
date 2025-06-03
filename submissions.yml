@@ -1,5 +1,6 @@
 projects:
   - "https://github.com/atomisadev/cubert"
+  - "https://github.com/Hasnat4763/Bluetooth-Adapter"
   - "https://github.com/Synaptic-Odyssey/Gimbal-Pen"
   - "https://github.com/smartlinuxcoder/calculettissimo"
   - "https://github.com/Overlord-Runt/ESP32-Dev-Board"
@@ -249,6 +250,7 @@ projects:
   - "https://github.com/Fastestkyo/gokart"
   - "https://github.com/hjw1112/customboard"
   - "https://github.com/DinosaurPotato534/scuffedMP3"
+  - "https://github.com/twentysicks/krishak"
   - "https://github.com/DominicTYLau/BattleBots"
   - "https://github.com/lolasanchezz/flipclock"
   - "https://github.com/CedricL1u/BilletAluminumKeyboard"
@@ -256,3 +258,7 @@ projects:
   - "https://github.com/ANSHUMANDOCX/Desk-Display"
   - "https://github.com/Yoda-Flash/midi-beatpad"
   - "https://github.com/ItzJashoo/jintendoslab"
+  - "https://github.com/thorthefish/Small-croxy"
+  - "https://github.com/Keyaan-07/Hawt-Plate"
+  - "https://github.com/m5kro/KiKard"
+  - "https://github.com/regular030/SaturnArm"
