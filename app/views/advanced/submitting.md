@@ -34,7 +34,7 @@ Before submitting, please *absolutely* make sure of the following:
 
 ## Submitting
 
-Once you are absolutely sure you have met the above requirements, post your project in #highway-pistop! Here's what you should include:
+Once you are absolutely sure you have met the above requirements, post your project in [#highway-pitstop](https://hackclub.slack.com/archives/C08S22XRYMU)! Here's what you should include:
 
 ```
 **Name of project: **
