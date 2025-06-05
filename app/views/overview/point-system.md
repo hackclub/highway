@@ -33,5 +33,5 @@ As always, if you have any questions, ask in #highway!
 **Can I transfer points between friends?**
 no!
 
-**Can I do starter projects multiple times?**
+**Can I do the same starter project multiple times?**
 no!
