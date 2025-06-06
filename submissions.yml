@@ -1,4 +1,5 @@
-projects:
+projects: 
+  - "https://github.com/Everett-DaRizzler/Controller-Keyboard"
   - "https://github.com/madebyshaurya/BeatBox"
   - "https://github.com/lordbagel42/highway-lora-garage"
   - "https://github.com/ethanJPope/Ethan-sFullKeyboard"
