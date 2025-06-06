@@ -22,7 +22,7 @@ Before submitting, please *absolutely* make sure of the following:
     - **PICTURES OF YOUR PROJECT**
         - A screenshot of a full 3D model with your project
         - A screenshot of your PCB, if you have one
-    - A wiring diagram, if you're doing any wiring that isn't on a PCB
+        - A wiring diagram, if you're doing any wiring that isn't on a PCB
     - A BOM in table format at the end of the README
 - **In your GitHub JOURNAL.md file:**
     - Journal entries with the following:
@@ -37,7 +37,7 @@ Before submitting, please *absolutely* make sure of the following:
 
 ## Submitting
 
-Once you are absolutely sure you have met the above requirements, post your project in #highway-pistop! Here's what you should include:
+Once you are absolutely sure you have met the above requirements, post your project in [#highway-pitstop](https://hackclub.slack.com/archives/C08S22XRYMU)! Here's what you should include:
 
 ```
 **Name of project: **
