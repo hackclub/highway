@@ -6,7 +6,7 @@ Designing your own projects is really, *really* hard. Here's my best explainer a
 
 You can split this entire process up into approximately 4-5 different steps, depending on what the project is.
 
-During this entire process you're going to have to do a LOT of research on sourcing parts and what the pros and cons of getting each would be. During this time, PLEASE check out the [Part Sourcing](advanced/part-sourcing) guide to get a better idea of the options
+During this entire process you're going to have to do a LOT of research on sourcing parts and what the pros and cons of getting each would be. During this time, PLEASE check out the [Part Sourcing](/advanced/part-sourcing) guide to get a better idea of the options
 
 ---
 
@@ -22,7 +22,7 @@ Next up is to pick the components for that
 
 Try to avoid getting hung up passives. If there's multiple parts that are the same functionality
 
-For actual sourcing & finding links, please refer to the [Part Sourcing](advanced/part-sourcing) guide
+For actual sourcing & finding links, please refer to the [Part Sourcing](/advanced/part-sourcing) guide
 
 ---
 
