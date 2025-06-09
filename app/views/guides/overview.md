@@ -10,5 +10,5 @@ The first one is on how to make a Game Console - check it out on the sidebar!
 
 To contribute, make a markdown file in the app/views/guides folder! Put your guide in there. Afterwards, make a PR with your changes!
 
-**In return, you'll get rewarded 1 free point for adding *finished* a guide**
+**In return, you'll get rewarded 1 free point for adding a *finished* guide**
 
