@@ -1,12 +1,10 @@
-# Guide
+# Overview
 
 ### Welcome to the **Highway** to **Undercity**, an unforgettable summer of hardware running from now through July 31st.
 
 <img src="/logobanner.svg" style="width: full" class="-mt-4"></img>
 
 If you've *never* done hardware before, this is *your* opportunity to get started. That one project you saw on YouTube but had no idea how to build? *That ends now.*
-
-*If you're already a seasoned pro, this is your chance to really level up. That 5-axis 3D printer you've been thinking of? Now's your chance*.
 
 **Earn points with each project you build.** Collect prizes along the way. Join your friends at Undercity, a 4 day hackathon in San Francisco at GitHub HQ.
 
@@ -16,70 +14,28 @@ If you've *never* done hardware before, this is *your* opportunity to get starte
 ---
 ### 1. Build hardware projects
 
-#### 1. Pick an idea
+Design custom projects. [Submit](/advanced/submitting) them. Get approved. Receive a credit card of up to $350 USD. Buy the parts and build it. Repeat
 
-Pick an idea! You can either choose a [Starter Project](/starter-projects) (4 points) or a [Custom Project](/advanced) (6 or 10 points)
+There's three tiers:
 
-[Starter Projects](/starter-projects) are guided resources that help you build awesome stuff like macropads just like the one below. In exchange, we'll ship you the parts you need to build it!
+- **Tier 3:** get 4 points, up to $50 USD
+- **Tier 2:** get 6 points, up to $150 USD
+- **Tier 1:** get 10 points, up to $350 USD
 
-<img src="https://hackpad.hackclub.com/orpheuspadpic.png" style="max-width: 400px;"></img>
-
-[Custom projects](/advanced) are fully self-directed! You'll be responsible for all the research, and in return, you'll get a debit card of up to $350* USD to spend on your project! **You must journal your progress while working on custom projects**
-
-**by default you only get $150 USD, check out the [Custom Projects](/advanced) section to find out how you can get $350*
-
-#### 2. Start your project 
-
-Make a repository for your project! You can use any git provider, but most people use GitHub. Now, you can start making the PCB/CAD/code/more to your project!
-
-**If you're making a Custom project:**
-
-In the repository, create a file called JOURNAL.md - this will be where you keep track of your progress! Every single time you work on your project, you should jot down what you did and total hours spent. *Remember to commit the changes every time you work on it!*
-
-**Before you work on your Custom project, make a pull request to add your project URL to the [submissions.yml](https://github.com/hackclub/highway/blob/main/submissions.yml) file in the Highway GitHub repo. Your project will appear in the [Gallery](/projects)!**
-
-It should look something like this:
-
-```
-projects:
-  - "https://github.com/Dongathan-Jong/SpotifyDisplay"
-  - "your_repo_link"
-```
-<br>
-More instructions on the [Custom Projects](/advanced/overview) page!
+Each tier has progressively harder guidelines. Check out the [Custom projects](/advanced) tab for all the info you need - including project guidelines!
 
 
-#### 3. Ship the design
-Shipping your design means sharing it in a way that other people can use what you made! Include the following:
+Head on over to the [custom projects](/advanced) are fully self-directed! You'll be responsible for all the research, and in return, you'll get a debit card of up to $350* USD to spend on your project! *You must journal your progress while working on custom projects*
 
-- A published design on a [GitHub](https://github.com/) repository
-- A nice README.md file with a description of what your project does & any images
-- Any source files that are used for your project
+*You can make an unlimited amount of projects, so get building!*
 
-(*what you need specifically will change with each project, so make sure to double check the docs so that you have everything!*)
-
-#### 4. Collect your points & parts
-Once you have a shipped project, submit it to our form here: [https://forms.hackclub.com/highway](https://forms.hackclub.com/highway)
-
-**If you get approved** you'll get the following; 
-
-- Either a kit of parts (starter project), or a $350* credit card to build your design (custom project)!
-- A 3D printed case (printed by another Hack Clubber in your country, if you don't have a 3D printer)
-- A soldering kit, if you don't have one already
-
-Approval is not guaranteed. Please go over the **submission requirements** of what you're making to make sure you don't get rejected!
-
-Make sure to double check your design has everything you need before submitting! 
-
-If it is rejected for any reason, you'll need to wait **1 week** before you can get it re-reviewed.
+**If you're a complete beginner, head on over to check out our [starter projects](/getting-started/starter-projects)! They're designed to help you get jumpstarted**
 
 ---
 
 ### 2. Join weekly events
 
 Every week, we'll host events like Speedruns, Game Nights, AMAs, and Showcases! 
-
-First one up is the **Kickoff call on Friday, May 23rd at 7:00PM EST**. Get your 1st point for free!
 
 See the [Events](/events) tab for an up-to-date list.
 

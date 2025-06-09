@@ -1,5 +1,6 @@
 class Project
   include MarkdownRenderable
+  include HasFrontmatter
   attr_reader :user, :project_name, :title, :author, :description, :created_at, :content
 
   def initialize(attributes = {})
@@ -10,6 +11,14 @@ class Project
     @description = attributes[:description]
     @created_at = attributes[:created_at]
     @content = attributes[:content]
+  end
+
+  def self.highlighted_projects
+    @highlighted_projects ||= YAML.load_file(Rails.root.join("config/highlighted_projects.yml"))
+  end
+
+  def is_highlighted?
+    self.class.highlighted_projects.include?(github_slug)
   end
 
   def name
@@ -35,6 +44,7 @@ class Project
 
   def created_at_date
     return nil unless created_at
+    return created_at if created_at.is_a?(Date)
     Date.parse(created_at)
   rescue Date::Error
     nil
@@ -125,19 +135,7 @@ class Project
       author: metadata["author"],
       description: metadata["description"],
       created_at: metadata["created_at"],
-      content: render_markdown(markdown_content)
+      content: render_markdown(markdown_content, user, project_name)
     )
-  end
-
-  private
-
-  def self.parse_frontmatter(content)
-    if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)(.*)/m
-      metadata = YAML.safe_load($1)
-      content = $3
-      [ metadata, content ]
-    else
-      [ {}, content ]
-    end
   end
 end

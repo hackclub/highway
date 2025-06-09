@@ -1,24 +1,16 @@
 # Project Guidelines
 
-If you're wondering what you're allowed to build, the bottom line is this:
+If you're wondering what you're allowed to build, here's a quick guide on what we generally look for! Please keep in mind these are just guidelines, so always feel free to ask in #highway!
 
-Build something *awesome*, something that you would be proud to keep in your room for the next 5 years, and something that you would be proud to show other people.
+*above all though, the bottom line is this: build something awesome, something that you would be proud to keep in your room for the next 5 years, and something that you would be proud to show other people*
 
-Let's get teenagers to be the ones to make the best projects yet.
+---
 
 ## Overview
-Here's an overall list of what is allowed / isn't allowed for your project! Keep in mind these are just guidelines
 
-Generally speaking, each project must be closer to a product than a demo - that doesn't mean go ultra advertising mode, but that does mean that a breadboarded together project with no case *doesn't* count.
+Here's an overall list of criteria that applies to all tiers, regardless of your budget/points.
 
-### Complexity
-A custom project should include each of the following:
-
-- A case / cover / some sort of physical part
-- A custom PCB (unless you REALLY don't need it)
-- Ideally some sort of software config / cronjob / tool that is beyond the defaults of whatever you're using
-
-### Originality
+### Originality & idea
 
 Almost every idea out there has been thought of before - what matters is that when designing it, which means that you do *not* do the following:
 
@@ -27,6 +19,40 @@ Almost every idea out there has been thought of before - what matters is that wh
 - Directly copy paste entire programs
 - Directly copy paste 3D printed / manufactured models (reference parts are OK)
 - **In general, do not copy paste stuff directly - use them as references**
+
+Generally speaking, each project must be closer to a product than a demo - that doesn't mean go ultra advertising mode, but that does mean that a breadboarded together project with no case *doesn't* count
+
+(more to be added)
+
+---
+
+## Tiers & examples
+
+**I want to make it clear that there is *no* idea that wouldn't qualify for at least 6 points. It's all about how you implement it and the level polish you add**
+
+### 4 points ($50, 8-20 hours)
+This is the cheapest tier. It's meant for smaller projects that take roughly 8-12 hours to design & physically build. Examples include:
+
+- DIY Macropad
+- Small mini PCB business card
+
+### 6 points ($150, 20-50 hours)
+This is the middle tier! It's where most projects should fall under. Generally speaking, you're expected to have both a set of electronics and 3D modelled case, unless you have a particularly complex PCB (i.e a devboard)
+
+Examples include:
+
+- DIY Game console w/ case
+- DIY minecraft jukebox
+- Full split keyboard
+- DIY PC audio to FM radio usb adapter
+
+### 10 points ($350, 50-200+ hours)
+This is the highest tier. It's for projects that take anywhere from 50-200+ hours. Many of these take multiple iterations to contiunously build and work on. These are usually CAD heavy, as PCBs are very hard to iterate on unless you have an SMD setup
+
+- Custom 3D printer
+- Battlebot with custom attachments
+
+---
 
 
 ## Examples

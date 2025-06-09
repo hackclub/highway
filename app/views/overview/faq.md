@@ -4,13 +4,23 @@ Welcome to the FAQ! This page attempts to point you to the right place when you 
 
 As always, if *anything* is unclear, ask in #highway for help!
 
+### When is the last day to submit a project design?
+July 31st, 2025.
+
+### When is the last day to get enough points to qualify for Undercity?
+July 10th, 2025
+
+### What's the difference between hackpad and a 4-point starter project?
+With hackpad, we source all the parts for you and send you a kit. With a 4-point starter, you have to find where to get all the components yourself
+
+### When is the last day to submit a completed build to be reimbursed for undercity?
+August 7th, 2025. Hard deadline.
+
 ### How can I get started with a custom project?
 Read the [custom projects](/advanced) tab carefully. Everything is there.
 
 ### How are hours tracked?
-For starter projects, they're not!
-
-*For custom projects*, **you need to journal**. Please check out the [custom projects](/advanced) tab for more info on journaling!
+Journaling! Every time you work on a project, you'll need to log what you did
 
 ### How will I get my 3D printed parts?
 Through **printing legion**! It's an international network of Hack Clubbers 3D printing for each other, sponsored by Polymaker (website coming soon - hang tight!)
@@ -60,7 +70,8 @@ Yup! This is for everyone, irrespective of whether or not they can come to Under
 
 ### Can points be used for something else?
 
-Not as of right now. For those who get *above* 12 points, we *might* have some special swag planned. No promises.
+Not as of right now. There are additional rewards for those who get *above* 12 points though. Check out the [point system](/getting-started/point-system) tab for more information on that.
 
 ### What if my project costs more than $350? Can I pay for the difference myself?
+
 Yes!

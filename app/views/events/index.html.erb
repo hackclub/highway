@@ -8,14 +8,60 @@
         <p class="text-4xl font-bold font-dystopian text-center">Events</p>
 
         <p class="mt-2 opacity-80 text-center">Check this page for events - like game nights, speedruns, showcases, and more - that we'll be hosting throughout Highway!</p>
+        <p class="opacity-60 text-center">Note that events default to 0 points given unless otherwise stated.</p>
         <p class="mt-2 opacity-60 text-center"><i>Sorted by recent.</i></p>
 
         <div class="mt-8 grid grid-cols-1 gap-8">   
 
-        
+
+            <%# strange parts ama %>
+            
+            <div class="flex flex-col p-8 rounded max-w-5xl border-[#544FFF] border-4 hover:bg-[#3E399C] bg-[#2E2C72] transition-colors duration-150">
+                <p class="text-2xl font-bold">Show & Tell (w/ Strange Parts) @ <a href="https://time.cs50.io/20250613T1800-0400?title=Show+%26+Tell+(w/+Strange+Parts)" class="underline font-bold hover:decoration-wavy" target="_blank" rel="noopenner noreffer">Friday June 13, 6PM EDT!</a></p>
+                <p class="opacity-50 mb-2"><i>Posted 6/6/2025</i></p>
+                <hr class="border-t-2 border-[#544FFF] mb-4 opacity-60">
+                <div class="space-y-2 opacity-80 mb-4">
+                    <p>Join us in hour-long call to show off your projects, and see what projects others have been cookin' up!</p>
+                    <p>Scotty from <a href="https://www.youtube.com/@StrangeParts" class="underline font-bold text-pink-300 hover:decoration-wavy" rel="noopenner noreferrer" target="_blank">Strange Parts</a> (1.93 million subscribers on YouTube) will also be there to see your projects!</p>
+                    <p>Your project doesn't need to be finished - come demo what you have :D</p>
+                    <p><a href="https://time.cs50.io/20250613T1800-0400?title=Show+%26+Tell+(w/+Strange+Parts)"></p>
+                </div>
+                <%= image_tag "/showandtell.png", style: "", class: "" %>
+            </div>
 
             <div class="flex flex-col p-8 rounded max-w-5xl border-[#544FFF] border-4 hover:bg-[#3E399C] bg-[#2E2C72] transition-colors duration-150">
-                <p class="text-2xl font-bold">Join us for the Kickoff Call @ Friday May 23, 7PM EST!</p>
+                <p class="text-2xl font-bold">Project Building Call @ Wednesday June 4, 7-11PM EDT!</p>
+                <p class="opacity-50 mb-2"><i>Posted 4/6/2025</i></p>
+                <hr class="border-t-2 border-[#544FFF] mb-4 opacity-60">
+                <div class="space-y-2 opacity-80 mb-4">
+                    <p>This Wednesday, we're running a Highway project building call! Drop in, get any questions answered, share what you're making, and help each other out!</p>
+                    <p>If you've wanted to build a project but have absolutely no idea where to start, this call is for you!</p>
+                    <p class="font-bold"><i>Stay in call for at least 20 minutes and ship an update in your JOURNAL.md to get one (1) point!</i></p>
+                </div>
+            </div>
+
+            <%# strange parts ama %>
+            
+            <div class="flex flex-col p-8 rounded max-w-5xl border-[#544FFF] border-4 hover:bg-[#3E399C] bg-[#2E2C72] transition-colors duration-150">
+                <p class="text-2xl font-bold">Strange Parts AMA @ Friday May 30, 6PM EDT!</p>
+                <p class="opacity-50 mb-2"><i>Posted 27/5/2025</i></p>
+                <hr class="border-t-2 border-[#544FFF] mb-4 opacity-60">
+                <div class="space-y-2 opacity-80 mb-4">
+                    <p><a href="https://www.youtube.com/@StrangeParts" class="underline font-bold text-pink-300 hover:decoration-wavy" rel="noopenner noreferrer" target="_blank">Strange Parts</a> is a Youtuber with 1.96 <i>million</i> subscribers! His most watched video has 28 million views, where he 
+                    <a href="https://www.youtube.com/watch?v=leFuF-zoVzA" class="underline font-bold text-pink-300 hover:decoration-wavy" rel="noopenner noreferrer" target="_blank">made his own iPhone in China</a>. 
+                    He has also <a href="https://www.youtube.com/watch?v=ljOoGyCso8s" class="underline font-bold text-pink-300 hover:decoration-wavy" rel="noopenner noreferrer" target="_blank">toured the JLCPCB factory on video</a>,
+                    <a href="https://www.youtube.com/watch?v=utfbE3_uAMA" class="underline font-bold text-pink-300 hover:decoration-wavy" rel="noopenner noreferrer" target="_blank">modded an iPhone to have a headphone jack</a>, among <i>many</i> other videos.</p>
+                    <p>AMA stands for <i>Ask Me Anything</i>; it's an hour-long session on Zoom where <i>YOU</i> can ask Strange Parts anything! From how he got started in tech, to tips he has for overcoming technical hurdles, to what his opinion on the latest hardware is. He'll be there to interact with you - LIVE!</p>
+                    <p>Come prepared with your questions! <i>Zoom link will be sent by email day-of.</i></p>
+                </div>
+                <%= image_tag "/strangeparts2.png", style: "", class: "" %>
+            </div>
+
+        
+            <%# kickoff call %>
+
+            <div class="flex flex-col p-8 rounded max-w-5xl border-[#544FFF] border-4 hover:bg-[#3E399C] bg-[#2E2C72] transition-colors duration-150">
+                <p class="text-2xl font-bold">Join us for the Kickoff Call @ Friday May 23, 7PM EDT!</p>
                 <p class="opacity-50 mb-2"><i>Posted 13/5/2025</i></p>
                 <hr class="border-t-2 border-[#544FFF] mb-4 opacity-60">
                 <div class="space-y-2 opacity-80 mb-4">
@@ -24,9 +70,7 @@
                     <p>Feel free to start working on your project and journaling before this call!</p>
                     <p class="font-bold"><i>You'll also get one (1) free point to Undercity for joining!</i></p>
                 </div>
-                <%= image_tag "/event1kickoff2.svg", style: "", class: "" %>
-
-
+                <%= image_tag "/eventkickoff2.png", style: "", class: "" %>
             </div>
 
 
