@@ -1,4 +1,5 @@
 projects:
+  - "https://github.com/Choccy-vr/BeanPad"
   - "https://github.com/AVSCGREAT/KX-36"
   - "https://github.com/Navdeep-Codes/Arctron-Arm"
   - "https://github.com/Matt-ziba/Thrust-O-Matic-Mainboard"
@@ -189,6 +190,7 @@ projects:
   - "https://github.com/DynamicWhiteHat/RCRocket"
   - "https://github.com/information-fiend/rabbitboard"
   - "https://github.com/ConfusedHello/DLSR-Gimbal"
+  - "https://github.com/ConfusedHello/USB-Mic"
   - "https://github.com/Hex-4/glyph"
   - "https://github.com/broiisapro/SimRobot"
   - "https://github.com/TheEternalComrade/The-Scheme-Machine"
@@ -387,3 +389,5 @@ projects:
   - "https://github.com/its-kronos/KeyboardV1"
   - "https://github.com/Fastestkyo/fortpad"
   - "https://github.com/v1peridae/v1pernecklace"
+  - "https://github.com/hardwarepro/oled-hackpad"
+  - "https://github.com/ANSHUMANDOCX/Transmitter_Receiver-Using-ESP32S3"
