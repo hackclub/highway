@@ -1,8 +1,10 @@
-<div class="ml-12 mt-24">
+<div class="mt-30 flex flex-col justify-center items-center mx-24">
 
-  <%= render partial: "header", locals: { project: @project } %>
+  <div class="">
+    <%= render partial: "header", locals: { project: @project } %>
+  </div>
 
-  <div class="markdown-content prose prose-invert max-w-none mt-8">
+  <div class="markdown-content bg-[#302C61] p-8 px-16 rounded prose prose-invert max-w-none mt-8 project-img border-[#403A88] border-2">
     <%= @project.content.html_safe %>
   </div>
 </div>

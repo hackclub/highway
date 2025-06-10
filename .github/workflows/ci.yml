@@ -6,6 +6,15 @@ on:
     branches: [ main ]
 
 jobs:
+  lint_submissions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yaml-lint
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          file_or_dir: submissions.yml
+
   scan_ruby:
     runs-on: ubuntu-latest
 

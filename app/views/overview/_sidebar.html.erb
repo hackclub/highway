@@ -1,13 +1,14 @@
 <div class="border-t-4 md:border-t-0 md:border-r-4 border-[#2E2A54] text-white h-full flex flex-col gap-4 justify-start mt-8 fixed">
   <div class="flex flex-col justify-start p-8">
     <div class="text-center grid grid-cols-1 gap-2 text-xl font-dystopian">
-      <%# link_to "Projects", projects_path, class: "#{current_page?(projects_path) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 rounded transition duration-100 block" %>
       <%= link_to "Overview", overview_page_path("overview"), class: "#{current_page?(overview_page_path("overview")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 px-6 rounded transition duration-100 block" %>
       <%= link_to "The Point System", overview_page_path("point-system"), class: "#{current_page?(overview_page_path("point-system")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 px-6 rounded transition duration-100 block" %>
-      <%= link_to "How to submit", overview_page_path("submit"), class: "#{current_page?(overview_page_path("submit")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 px-6 rounded transition duration-100 block" %>
+      <%= link_to "Starter Projects", overview_page_path("starter-projects"), class: "#{current_page?(overview_page_path("starter-projects")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] text-[#AFEFCB] p-2 px-6 rounded transition duration-100 block" %>
       <%= link_to "Undercity", overview_page_path("undercity"), class: "#{current_page?(overview_page_path("undercity")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 px-6 rounded transition duration-100 block" %>
+      <%= link_to "Parent's Guide", overview_page_path("parents"), class: "#{current_page?(overview_page_path("parents")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 px-6 rounded transition duration-100 block" %>
       <%= link_to "FAQ", overview_page_path("faq"), class: "#{current_page?(overview_page_path("faq")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 px-4 rounded transition duration-100 block" %>
     </div>
+    
 
   </div>
 </div>

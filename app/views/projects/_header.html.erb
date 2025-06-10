@@ -1,9 +1,37 @@
-<div class="">
-<h1 class="text-3xl mb-6 text-green-200"><%= project.name %></h1>
+<div class="flex flex-col items-center w-full">
 
-<%= link_to "View on GitHub",
-            project.github_repo,
-            class: "bg-[#96ABF9] text-white px-4 py-2 rounded hover:opacity-80 transition duration-200",
-            target: "_blank" %> 
+    <div class="flex flex-wrap space-x-2">
+        
+        <%= link_to "← Back to Gallery", projects_path, class: "bg-[#403A88] font-bold text-white px-4 py-2 rounded hover:opacity-80 transition duration-200" %>
+        <%= link_to "View on GitHub",
+                project.github_repo,
+                class: "bg-[#544FFF] font-bold text-white px-4 py-2 rounded hover:opacity-80 transition duration-200" %> 
+    </div>
+
+    <div class="flex flex-col justify-center items-center bg-[#302C61] p-8 px-16 rounded mt-8 project-img border-[#403A88] border-2 w-full">
+
+        <h1 class="text-5xl text-green-200 font-dystopian"><%= project.name %></h1>
+
+        <div class="text-[#b3aaff] opacity-70">
+            Created by
+            <% if project.author.present? %>
+            <%= link_to project.user_link, target: "_blank", class: "text-[#96ABF9] inline-block" do %>
+                [<%= project.author %>]
+            <% end %>
+            <% else %>
+            <%= project.author_display %>
+            <% end %>
+            <% if project.has_creation_date? %>
+            <span class="">• Started on <%= project.formatted_created_at %></span>
+            <% end %>
+        </div>
+
+        <% if project.description.present? %>
+            <p class="text-center text-md opacity-80 max-w-2xl mt-4">
+                <%= project.description %>
+            </p>
+        <% end %>
+
+    </div>
 
 </div>

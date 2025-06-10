@@ -1,14 +1,15 @@
 class ProjectsController < ApplicationController
-  include MarkdownRenderable
-  require "yaml"
+  include HasFrontmatter
 
   def index
     @projects = Project.all
+
+    CloneProjectsJob.perform_later if @projects.empty?
   end
 
   def show
-    @project = Project.find(params[:repo], params[:project_name])
-    render_not_found unless @project
+    @project = Project.find(params[:user], params[:project_name])
+    render_not_found unless @project.present?
   end
 
   def new
@@ -55,16 +56,6 @@ class ProjectsController < ApplicationController
       created_at: metadata["created_at"],
       content: render_markdown(markdown_content)
     }
-  end
-
-  def parse_frontmatter(content)
-    if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
-      metadata = YAML.safe_load($1)
-      content = content[$2.size..-1]
-      [ metadata, content ]
-    else
-      [ {}, content ]
-    end
   end
 
   def render_not_found
