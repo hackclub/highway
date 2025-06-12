@@ -1,4 +1,5 @@
 projects:
+  - "https://github.com/Heinrich-XIAO/adhdgym"
   - "https://github.com/fahad-ee/allrounder"  
   - "https://github.com/TheRealMopcornPuncher/Voltcore-V2"
   - "https://github.com/shaileshsaravanan/axon"
@@ -422,3 +423,5 @@ projects:
   - "https://github.com/JoelBiswas/CustomRFController"
   - "https://github.com/AmmarSyamil/Rota_Pi"
   - "https://github.com/rakshitDarji007/CustomDIY_Keyboard"
+  - "https://github.com/ThePathOfLeastResistance/LaserEngraver"
+  - "https://github.com/2Mon/hightempdryer"
