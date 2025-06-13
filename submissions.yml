@@ -434,3 +434,7 @@ projects:
   - "https://github.com/Jaosn-Lee/Minecraftseedgenerator"
   - "https://github.com/esemv07/QuestDeck"
   - "https://github.com/Amronos/omninado"
+- name: Ankit Tripathi
+  slack: @ankit_tripathi
+  project: Smart  Assistant in a Box  
+  repo: https://github.com/AnkitTrpathi8/Smart-AI-Box
