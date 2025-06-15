@@ -452,3 +452,9 @@ projects:
   - "https://github.com/Ventengo1/Pool_Skimmer"
   - "https://github.com/MeghanaM4/delorean"
   - "https://github.com/vostsoldier/Yau-Flight-Computer"
+  title: "Smart-A.I-With-3d-visuals",
+  email: "aktkimail@gmail.com"
+  author: "Ankit Tripathi",
+  slack_username: "ankit_tripathi"
+  github: "https://github.com/coderAnkittripathi/Smart-A.I-With-3d-visuals",
+  description: "I am making a project which talk with us like human it gives 3d visuals and interact with us using camera and also give detail about things using pictures it have great data storage."
