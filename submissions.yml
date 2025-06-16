@@ -1,5 +1,8 @@
 projects:
+  - "https://github.com/souptik-samanta/WalkieTalkie"
+  - "https://github.com/souptik-samanta/Infrared-gun" 
   - "https://github.com/lolwutboi987/Quokka-1"
+  - "https://github.com/Overlord-Runt/Fold-Board"
   - "https://github.com/Praveenkushinpi/CLACK"
   - "https://github.com/Alecsis/hacker-badge"
   - "https://github.com/Jayx2u/neonav"
@@ -470,3 +473,4 @@ projects:
   - "https://github.com/tiwari-ira/RC-PLANE"
   - "https://github.com/kuzgoga/unas"
   - "https://github.com/eddyzow/PomodoroTimer"
+  - "https://github.com/AmbassadorDoge/d2t-ev"
