@@ -2,7 +2,7 @@
 
 **Undercity** is a 4 day hardware hackathon hosted at GitHub HQ in San Francisco, California, USA from July 11-14th.
 
-To qualify for Undercity, you need at least 12 points and 1 *physically built*, working hardware project.
+To qualify for Undercity, you just need 8 points! You get the points when you finish _designing_ a project.
 
 <img src="/guardianoftheundercity.png" style="width: full" class=""></img>
 
