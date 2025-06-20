@@ -9,6 +9,8 @@ created_at: "2024-03-20"
 
 Highway is a framework designed to make web development more accessible and enjoyable. Built with modern best practices in mind, it provides a streamlined development experience while maintaining flexibility and power.
 
+![](./logo2.png)
+
 ## Key Features
 
 - **Modern Architecture**: Built on top of Rails 8, leveraging the latest web technologies
