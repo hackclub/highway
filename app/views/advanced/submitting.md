@@ -41,7 +41,7 @@ Once you are absolutely sure you have met the above requirements, post your proj
 
 ```
 **Name of project: **
-*GitHub Repository Link: **
+**GitHub Repository Link: **
 
 Description: 
 
