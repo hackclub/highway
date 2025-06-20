@@ -1,4 +1,5 @@
 projects:
+  - "https://github.com/shinkensen/Up2PC"
   - "https://github.com/Choccy-vr/WLED-BOX"
   - "https://github.com/BOTwillplayz/FloofCam"
   - "https://github.com/awesomebrownies/beamformer"
