@@ -42,14 +42,14 @@ Visa expenses will not be paid by Hack Club under any circumstances.
 
 #### Travel Stipends
 
-You'll qualify for a reimbursment once you have **finished building the projects you submitted for Undercity + reached 12 points**. 
+You'll qualify for a reimbursment once you have **finished building the projects you submitted for Undercity + reached 10 points**. 
 
 Base stipends:
 
-- If you're in North America, we will reimburse you 200 USD
-- If you're international, we will reimburse you 500 USD
+- If you're in North America, we will reimburse you 100 USD
+- If you're international, we will reimburse you 250 USD
 
-You can also earn additional stipends for points above 12.
+You can also earn additional stipends for points above 10.
 A needs-based stipend application will also be available. 
 
 Travelling by car, bus, or train? The [Hack Club Gas Fund](https://gas.hackclub.com/) can reimburse your costs! However, you'll still need an invite to come.
