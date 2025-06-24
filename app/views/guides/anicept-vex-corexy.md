@@ -1,4 +1,4 @@
-# CoreXY 3D Printer
+# The Anicept Vex: my adventures with a CoreXY 3D Printer
 
 ### Tier 1 project (10 points)
 
@@ -31,7 +31,7 @@ But back to CoreXY's. Here are the pros and cons as compared to a bedslinger or 
 2. Printhead X/Y movement: Only the printhead moves sideways and forwards, instead of the entire bed, and  
 3. Dual X/Y motors: Two motors drive the printhead, collaborating and reducing strain on each. This also improves accuracy.  
 4. Bigger: CoreXY's can be built bigger than Cartesians while preserving the same quality (again, due to the bed not moving nearly as much)  
-5. Enclosable: Cartesians require much more space than CoreXY's because of the bed that moves back and forth. The size of the CoreXY doesn't depend on the bed position.
+5. Enclosable: Cartesians require much more space than CoreXY's because of the bed that moves back and forth. The size of the CoreXY doesn't depend on the bed position.  
 ### Cons
 1. Complicated: CoreXY's require many times the amount of components that Cartesians do, making them more complex to assemble and maintain, let alone design.  
 2. Long belt paths: Tensioning CoreXY belts can be difficult, and routing them in your design can be incredibly hard.  
@@ -314,12 +314,14 @@ Ah, firmware. It's what makes the machine run! From my experience, installing it
 
 After you're done installing Klipper, you can start tuning your newly powered printer! [Here's](https://ellis3dp.com/Print-Tuning-Guide/) the best guide in the world. It goes through absolutely _everything_! It's always so fun to get stuff up and running... to see your baby take its first steps.
 
+Sometimes, getting started can be quite challenging. The Vex was a pain in the neck to get working, due to sad design considerations and unforeseen issues. For instance, the motors somehow were skipping like crazy with even _mid-ranged_ accels. My first semi-successful benchy was incredibly short, for the simple yet evasive reason that the Z axis motor wasn't getting enough amps to provide the necessary torque. But I promise you: the effort pays off. It's always really cool to see your first successful benchy peel off the plate.
+
 You know a guide is good when the author is funny: (ellis's 3dp guide)  
 ![image](https://github.com/user-attachments/assets/cbfcd245-3786-48fd-9436-2c3f442c3bef)
 
 
 ## The End
-Wow! Three steps, a ton of work, and a bucketful of blood, sweat, and tears later, you have a 3D printer. Not only a 3D printer, _your_ 3D printer! Sit back and relax. The struggle is over (for now...) and now you can have fun! It's been a wild journey, and if you're like me, it hasn't been easy. But you made it! Congratulations. Now go watch some Zach Freedman. I know you want to.
+Wow! Three steps, a ton of work, and a bucketful of blood, sweat, and tears later, you have a 3D printer. Not only a 3D printer, _your_ 3D printer! Sit back and relax. The struggle is over (for now...) and now you can have fun! It's been a wild journey, and if you're like me, it hasn't been easy. But you made it! Congratulations. Now go watch some [Zack Freedman](https://www.youtube.com/watch?v=r7bhnKgjgJ0&t=9s). I know you want to.
 
 ~ anicetus
 
