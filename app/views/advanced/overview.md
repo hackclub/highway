@@ -60,11 +60,11 @@ As long as your PR doesn't have any conflicts, we'll merge it and your submissio
 
 Start designing your project! Check out the resources on the left side for inspo, part sourcing, etc
 
+Make sure to read over the [project guidelines](/advanced/project-guidelines) page of the website to get an idea of what you should build!
+
 ### 3. Submit your design
 
-Submit to https://forms.hackclub.com/highway
-
-(If you're submitting for 10 points, please send it in #highway-pitstop before submitting the form)
+The submission form is located in the instructions in the [Submitting](/advanced/submitting) page. READ THE INSTRUCTIONS. DO NOT BLINDLY SUBMIT
 
 ### 4. Get a grant to build it!
 
