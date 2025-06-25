@@ -2,7 +2,7 @@
 
 **Undercity** is a 4 day hardware hackathon hosted at GitHub HQ in San Francisco, California, USA from July 11-14th.
 
-To qualify for Undercity, you need at least 8 points! Don't worry if shipping dates are slow, you don't need a physically built project until August 7th
+To qualify for Undercity, you need at least 4 points! Don't worry if shipping dates are slow, you don't need a physically built project until August 7th
 
 <img src="/guardianoftheundercity.png" style="width: full" class=""></img>
 
@@ -27,7 +27,7 @@ All meals (from dinner on Friday, to breakfast on Monday) will be provided durin
 
 Undercity opening ceremony will start around 7pm on Friday. Plan to arrive a few hours before - check-in will start in the afternoon! It'll end Monday at noon.
 
-Once you reach 8 points, we'll send you the Travel Form to fill out!
+Once you reach 4 points, we'll send you the Travel Form to fill out!
 
 #### Visa information
 
@@ -44,12 +44,10 @@ Visa expenses will not be paid by Hack Club under any circumstances.
 
 You'll qualify for a reimbursment once you have **finished building the projects you submitted for Undercity + reached 12 points**. 
 
-Base stipends:
+Base stipend is 75 USD. You can also earn additional stipends for points above 4, starting at 6 points.
+- If you're in North America, we will reimburse you +50 USD at 6 points
+- If you're international, we will reimburse you +175 USD et 6 points
 
-- If you're in North America, we will reimburse you 200 USD
-- If you're international, we will reimburse you 500 USD
-
-You can also earn additional stipends for points above 12.
 A needs-based stipend application will also be available. 
 
 Travelling by car, bus, or train? The [Hack Club Gas Fund](https://gas.hackclub.com/) can reimburse your costs! However, you'll still need an invite to come.
