@@ -43,7 +43,7 @@ See the [Events](/events) tab for an up-to-date list.
 
 ### 3. Get invited to Undercity
 
-Once you collect 12 points, AND you've physically built 1 project, you'll get invited to [Undercity](/getting-started/undercity), a 4 day hardware hackathon at GitHub HQ from July 11-14.
+Once you collect 4 points, AND you've physically built 1 project, you'll get invited to [Undercity](/getting-started/undercity), a 4 day hardware hackathon at GitHub HQ from July 11-14.
 
 It'll be filled to the *brim* with hardware - hundreds of microcontrollers, kilometers of cabling, and more 3D printing than you could ever need. (Did someone mention a PCB mill?)
 
