@@ -19,7 +19,7 @@ Undercity is a 4-day, in-person hardware hackathon event for high school student
 **Event start: Friday, July 11, 7:00 PM EST (check-in anytime between 1:00 - 7:00 PM; plan to arrive early)**
 **Event end: Monday, July 14, 12:00 PM EST (noon)**
 
-**Undercity is invite-only**; in order to recieve an invitation, your child will need to get to 12 points through Highway. You earn points through making projects!
+**Undercity is invite-only**; in order to recieve an invitation, your child will need to get to 4 points through Highway. You earn points through making projects!
 
 **Here are some video documentaries of previous Hack Club events:**
 
