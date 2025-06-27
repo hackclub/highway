@@ -617,7 +617,4 @@ projects:
   - "https://github.com/cookiemonsternz/StageKit"
   - "https://github.com/mathisfun2048/PaperCam"
   - "https://github.com/ThePathOfLeastResistance/MotorizedCameraSlider"
-- name: Mohammed Talha
-  project: Gesture Controlled ESP32 Robot
-  repo: https://github.com/mohammedtalha15/gesture_control_bot
-  slack: @talha
+  - "https://github.com/mohammedtalha15/gesture_control_bot"
