@@ -1,4 +1,5 @@
 projects:
+  - "https://github.com/manuthecoder/setup-server"
   - "https://github.com/vegetableleaf/PCB_BizCard"
   - "https://github.com/TheBlueOompaLoompa/highway-pinball"
   - "https://github.com/Sidak08/Keyboard"
@@ -81,6 +82,7 @@ projects:
   - "https://github.com/awesomebrownies/cyberdeck"
   - "https://github.com/Dongathan-Jong/SpotifyDisplay"
   - "https://github.com/tacocatCLAUS/f1-laptop"
+  - "https://github.com/Bluelightning26/neoboard"
   - "https://github.com/Bluelightning26/BluBoard"
   - "https://github.com/Bluelightning26/glider"
   - "https://github.com/Greninja44/Mechakey_k48"
@@ -618,3 +620,7 @@ projects:
   - "https://github.com/mathisfun2048/PaperCam"
   - "https://github.com/ThePathOfLeastResistance/MotorizedCameraSlider"
   - "https://github.com/invictus-anic3tus/Printer-Pi-Pro"
+  - "https://github.com/alf1e/Custom-DMX-Fixtures"
+  - "https://github.com/YashasSingh/Highway-skateboard"
+  - "https://github.com/vkunamneni1/EcoPantry"
+  - "https://github.com/jpt1729/Alarm-Clock"
