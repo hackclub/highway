@@ -42,7 +42,7 @@ Visa expenses will not be paid by Hack Club under any circumstances.
 
 #### Travel Stipends
 
-You'll qualify for a reimbursment once you have **finished building the projects you submitted for Undercity + reached 12 points**. 
+You'll qualify for a reimbursment once your **projects have been reviewed + reached 4 points**. You will have to finish the projects by August 7th to receive the reimbursement, though.
 
 Base stipend is 75 USD. You can also earn additional stipends for points above 4, starting at 6 points.
 - If you're in North America, we will reimburse you +50 USD at 6 points
