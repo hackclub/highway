@@ -4,46 +4,34 @@ Decided to make a custom project? Awesome! Right this way.
 
 Whatever that one project you've been thinking of doing forever - whether that be a custom 3D printer, a full mechanical keyboard, or something else - now's your chance to make that real
 
+You can choose from one of the following tiers:
+
+- 4 point project with up to $50 USD in funding
+- 6 point project with up to $150 USD in funding (ex: keyboard, rp2040 devboard keychain)
+- 10 point project with up to $350 USD in funding (ex: 3D printer, antweight combat robot)
+
+The more points a project is worth, the higher the complexity & quality requirements will be. Please read over the [Project guidelines](/advanced/project-guidelines) to get a better idea of what they are
+
 Before you go crazy with ideas though - please be resourceful! This is **not** a free money glitch. [Hack Club](https://hackclub.com) is a financially limited non profit, and every dollar we can save together goes towards the next program.
 
-Any questions? Join the #highway channel in slack!
-
-**Before starting your project, please read over the [Project Guidelines](/advanced/project-guidelines) and [Submission Info](/advanced/submitting) pages so that you have an idea of what you're doing**
+Any questions? Ask in the [#highway](https://hackclub.slack.com/archives/C08Q1H6D79B) channel in slack!
 
 ---
 
-### Here's how to get started:
+## Here's how it works:
 
-1. Make a new GitHub repository for it! This will be where you add your project
-2. Start a journal by creating a file called JOURNAL.md and commit it
-3. Make a [pull request](https://github.com/hackclub/highway/tree/main) to **add your project to the site gallery**!
-4. Start designing your project! Journal each day you work on it!
-5. [Submit](/advanced/submitting) your project when you're done
-6. If you're accepted, we'll give you the grant!
 
-**To add your project to the site gallery, head on over to the [submissions.yml](https://github.com/hackclub/highway/blob/main/submissions.yml) in the site's repository and add your repo URL:**
+### 1. Set up your project & add it to the gallery
 
-```
-projects:
-  - "https://github.com/Dongathan-Jong/SpotifyDisplay"
-  - "your_repo_link"
-```
-<br>
-As long as your PR doesn't have any conflicts, we'll merge it and your submission will be added to the project list! Other people will be able to see your journal & see what you're up to.
+Before you start working on your project, you need to do some setup:
 
-After that, you're done! You can move onto designing.
+#### 1. Create a git repository for your project
 
-**Check out projects others have started in the [Gallery](/projects)!**
+Create a repository for your project! Most people use GitHub, but you can use any git provider you want
 
-Each project you design that is approved gets you **6 points**, or **10 points** if you build an extra advanced project (scroll to bottom)
+#### 2. Start your journal
 
----
-
-### On Journaling
-
-This is *the* most important part of the whole process! Journaling your progress is how to keep track of how your project is going. Beyond that, it's also a way to tell a story and have something to look back at many years down the line.
-
-At the top of your JOURNAL.md file, include this metadata *(include the quotation marks)*:
+Next, start a journal by creating a JOURNAL.md file in your repo. At the very top, include the following data:
 
 ```
 ---
@@ -53,8 +41,48 @@ description: "Describe your project in a short sentence!"
 created_at: "2024-03-20"
 ---
 ```
-
 <br>
+Journaling is mandatory for custom projects.
+
+#### 3. Make a PR to add it to the gallery
+
+Next, add it to the gallery! Make a pull request to the [submissions.yml](https://github.com/hackclub/highway/blob/main/submissions.yml) file in the site's repository and add your project's URL
+
+```
+projects:
+  - "https://github.com/Dongathan-Jong/SpotifyDisplay"
+  - "your_repo_link"
+```
+<br>
+As long as your PR doesn't have any conflicts, we'll merge it and your submission will be added to the project list! Other people will be able to see your journal & see what you're up to.
+
+### 2. Start designing!
+
+Start designing your project! Check out the resources on the left side for inspo, part sourcing, etc
+
+Make sure to read over the [project guidelines](/advanced/project-guidelines) page of the website to get an idea of what you should build!
+
+### 3. Submit your design
+
+The submission form is located in the instructions in the [Submitting](/advanced/submitting) page. READ THE INSTRUCTIONS. DO NOT BLINDLY SUBMIT
+
+### 4. Get a grant to build it!
+
+Once you're approved, you'll get an HCB Credit Card with the funding you submitted for, and a *half* of the points that your project is worth
+
+### Submit your finished project
+
+To collect the other half of your points, you need to actually submit your physically built project! To do so, fill out the following form:
+
+(form WIP, will be out when people are done projcts)
+
+
+---
+
+### On Journaling
+
+This is *the* most important part of the whole process! Journaling your progress is how to keep track of how your project is going. Beyond that, it's also a way to tell a story and have something to look back at many years down the line.
+
 Don't just journal your wins! It's much, *much* better to maintain a smaller, more consistent one every day - it'll capture a more realistic story to what things were really like. Fails are important too.
 
 Journaling is **mandatory** to get your submission approved! Poor quality journals will be rejected. 
@@ -77,7 +105,7 @@ Do NOT have:
 - Wall of timestamps with barely any descriptions
 - No images
 - Terrible formatting that's impossible to read
-- AI generated journal entries; anything written by AI will be automatically rejected
+- AI generated journal entries; anything written by AI will be immediately rejected
 
 Generally, it's OK if english isn't your first language and you're not the best at it. We're not marking you on your writing skills! What does matter is you try your best, the words are your own (no generative AI), and it's legible.
 
@@ -91,22 +119,6 @@ Most projects (keyboards, game consoles, custom devboards, etc) can all be built
 
 Some projects though are above and beyond - a DIY 5-axis 3D printer, a go-kart from scratch, etc take significantly more time, require a larger budget, and are overall a lot harder to execute.
 
-These projects should not be attempted unless you have *some* sort hardware experience in the past - even if it's just a starter project
+If this is you, then pitch your project in [#highway-pitstop](https://hackclub.slack.com/archives/C08S22XRYMU) when you're almost done!
 
-**If you think you have the idea & ability to execute:**
-
-Pitch your idea in [#highway-pitstop](https://hackclub.slack.com/archives/C08S22XRYMU) with:
-
-- A very brief description of what it is
-- Rough BOM w/ costs
-- What specifically you would have to design & what the process would look like - KEEP IT VERY BRIEF, BULLET POINTS ONLY
-- If applicable, link a couple references of what you're thinking of
-- 1-2 past projects you've made that gives you the confidence to pull this off
-- Why the complexity warrants 10 points
-
-Even if the project would fit under $150, if it's particularly complicated (beyond the standard project guidelines) then you should still pitch it in pitstop! Worst case you get some feedback on your idea
-
-Please format your pitch with bolded text, bullet points, etc to make it easier to parse
-
-**@alexren will respond with whether it's approved. Do not start if you are not approved**
-
+Even if the project would fit under $150, if it's particularly complicated (beyond the standard project guidelines) then you should still pitch it in pitstop! Worst case you get some feedback on your project so far

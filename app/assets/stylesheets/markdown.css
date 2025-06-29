@@ -1,10 +1,12 @@
 .markdown-content {
-    line-height: 1.5;
-    color: #dedae3;
+    line-height: 1.65;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #ded9e5;
 }
   
 .markdown-content h1 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
     font-weight: bold;
     color: #FFFFFF;
     margin-bottom: 1.8rem;
@@ -13,16 +15,16 @@
 }
 
 .markdown-content h2 {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 2em;
+    font-weight: 600;
     color: #FFFFFF;
     margin-top: 1.75rem;
     margin-bottom: 1.25rem;
 }
 
 .markdown-content h3 {
-    font-size: 1.75em; 
-    font-weight: bold;
+    font-size: 1.5em; 
+    font-weight: 600;
     color: #FFFFFF;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
@@ -30,32 +32,45 @@
 
 .markdown-content h4 {
     font-size: 1.25em; 
-    font-weight: 600;
+    font-weight: 550;
     color: #86e3a8;
     margin-bottom: 1rem;
 }
 
 .markdown-content p {
-    font-size: large;
+    font-size: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: "Poppins", sans-serif;
 }
   
 .markdown-content ul {
-    list-style-type: disc;
+    list-style-type: circle;
     margin-left: 1.5rem;
-    margin-bottom: 1rem;
     line-height: 2;
-    font-size: 1.1rem;
-    font-weight: 550;
+    font-size: 1rem;
+}
+
+.markdown-content ul:not(.markdown-content ul ul) {
+    /* padding-bottom: 1.5rem; */
+    list-style-type: disc;
 }
   
 .markdown-content ol {
     list-style-type: decimal;
     margin-left: 1.5rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    margin-top: 1rem;
     line-height: 2;
     font-size: 1.1rem;
     font-weight: 550;
+}
+
+.markdown-content hr {
+    border: 0;
+    height: 6px;
+    background-color: #605989;
+    margin: 2rem 0;
 }
   
 .markdown-content blockquote {
@@ -63,34 +78,6 @@
     padding-left: 1rem;
     color: #666;
     font-style: italic;
-}
-
-div.markdown li {
-    display: list-item;
-}
-  
-div.markdown ul {
-    display: block;
-    list-style-type: disc;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 40px;
-}
-  
-div.markdown ol {
-    display: block;
-    list-style-type: decimal;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 40px;
-}
-  
-div.markdown p:last-child {
-    padding-bottom: 5rem;
 }
 
 .markdown-content a {
@@ -107,26 +94,58 @@ div.markdown p:last-child {
 }
 
 .markdown-content strong {
-    font-weight: bold;
-    color: #86cfe5;
+    font-weight: 600;
+    color: #ffffff;
 }
 
 .markdown-content pre {
     background-color: #3c3672;
-    color: #ffffff;
+    border-color:#d1cadb;
+    border-width: 1px;
+    color: #d1cadb;
     padding: 1rem; 
-    border-radius: 8px; 
+    border-radius: 0px; 
     overflow-x: auto; 
   }
   
 .markdown-content code {
     background-color: #3c3672; 
     color: #ffffff;
+    font-size: 0.9rem;
     padding: 0.2rem 0.4rem; 
-    border-radius: 4px;
   }
 
 
 .project-img img {
     width: 800px;
 }
+
+/*
+
+div styling, probably don't need to touch this part.
+
+*/
+div.markdown li {
+    display: list-item;
+}
+  
+div.markdown ul {
+    display: block;
+    list-style-type: disc;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+  
+div.markdown ol {
+    display: block;
+    list-style-type: decimal;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+  
+div.markdown p:last-child {
+    padding-bottom: 5rem;
+}
+

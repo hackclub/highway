@@ -25,8 +25,8 @@
     <!-- desktop -->
     <div class="hidden md:flex items-center space-x-6 my-4 ml-8 *:font-dystopian *:uppercase *:hover:underline 2xl:text-2xl text-xl text-center text-[#AFBDEF]">
         <%= link_to "Getting started", "/getting-started", class: "#{request.path.start_with?('/getting-started') ? 'glow' : ''}" %>
-        <%= link_to "Starter projects", "/starter-projects", class: "text-[#D1AFEF] #{current_page?('/starter-projects') ? 'glow' : ''}" %>
         <%= link_to "Custom projects", "/advanced", class: "text-[#AFEFCB] #{request.path.start_with?('/advanced') ? 'glow' : ''}" %>
+        <%= link_to "Guides", "/guides", class: "text-[#D1AFEF] #{request.path.start_with?('/guides') ? 'glow' : ''}" %>
         <%= link_to "Gallery", projects_path, class: "#{current_page?(projects_path) ? 'glow' : ''}" %>
         <%= link_to "Events", events_path, class: "#{current_page?(events_path) ? 'glow' : ''}" %>
         <%= link_to "Faq", "/getting-started/faq", class: "#{current_page?('/getting-started/faq') ? 'glow' : ''}" %>
@@ -50,7 +50,8 @@
   >
     <%= link_to "Getting started", "/getting-started" %>
     <%= link_to "Starter projects", "/starter-projects" %>
-    <%= link_to "Resources", root_path %>
+    <%= link_to "Custom projects", "/advanced" %>
+    <%= link_to "Gallery", projects_path %>
     <%= link_to "Events", events_path %>
     <%= link_to "Faq", "/getting-started/faq" %>
   </div>
