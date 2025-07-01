@@ -115,6 +115,16 @@
     padding: 0.2rem 0.4rem; 
   }
 
+.markdown-content input[type="checkbox"] {
+  /* Example styles */
+  width: 1.1em;
+  height: 1.25em;
+  accent-color: #4fad4c; /* Modern browsers */
+  margin-right: 0.5em;
+  vertical-align: middle;
+  cursor: not-allowed;
+  /* Add more styles as needed */
+}
 
 .project-img img {
     width: 800px;
