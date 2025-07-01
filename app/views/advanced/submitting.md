@@ -10,28 +10,36 @@ Before you submit anything, you should post your project in #highway for feedbac
 
 Before submitting, please *absolutely* make sure of the following:
 
-- **Your project has a journal in the [gallery](/projects)**
-- **Your GitHub repository has all of your project files:**
-    - a BOM, in CSV format in the root directory
-    - the source files for your PCB, if you have one
-    - the source files for your CAD model, if you have one
-    - ANY other files that are part of your project.
-- **In your GitHub README.md file:**
-    - A description of what your project is
-    - A couple sentences on *why* you made the project
-    - **PICTURES OF YOUR PROJECT**
-        - A screenshot of a full 3D model with your project
-        - A screenshot of your PCB, if you have one
-        - A wiring diagram, if you're doing any wiring that isn't on a PCB
-    - A BOM in table format at the end of the README
-- **In your GitHub JOURNAL.md file:**
-    - Journal entries with the following:
-        - Date written
-        - Time spent
-        - Pictures/videos of what you're working on
-    - Your total time spent at the top of the file
+**Your project has a journal in the [gallery](/projects)**
 
-**Not doing any of the above will automatically get your project rejected. DO NOT FORGET ANY OF THESE**
+### YOUR GITHUB REPOSITORY CONTAINS ALL OF YOUR PROJECT FILES:
+- [x] a BOM, in CSV format in the root directory, WITH LINKS
+- [x] the source files for your PCB, if you have one
+- [x] the source files for your CAD model, if you have one
+- [x] ANY other files that are part of your project.
+
+### YOUR README.md FILE CONTAINS THE FOLLOWING:
+- [x] A short description of what your project is
+- [x] A couple sentences on *why* you made the project
+
+*PICTURES OF YOUR PROJECT*\
+- [x] A screenshot of a full 3D model with your project
+- [x] A screenshot of your PCB, if you have one
+- [x] A wiring diagram, if you're doing any wiring that isn't on a PCB
+- [x] A BOM in table format at the end of the README
+
+### YOUR JOURNAL.md FILE CONTAINS THE FOLLOWING:
+- [x] Dates
+- [x] Time spent per day
+- [x] Pictures/videos of what you're working on
+- [x] Total time spent on the project at the top of the file
+
+### YOU *DO NOT* HAVE:
+- [ ] AI Generated READMEs or Journal entries
+- [ ] Stolen work from other people
+- [ ] missing firmware/software
+
+# MISSING ANY OF THE ABOVE IS AN AUTOMATIC REJECTION. TICK THROUGH EVERY ITEM INDIVIDUALLY
 
 ---
 
@@ -60,11 +68,9 @@ _**Please do *not* use #highway-pitstop for anything other than submitting**_
 
 ## Next steps
 
-If you get approved, you'll get an HCB card grant in your email within 24 hours!
+If you get approved, you'll get an HCB card grant in your email within 12 hours!
 
-**If it gets rejected, you'll have to wait 1 week before being re-reviewed. DO NOT FILL OUT A NEW FORM**
-
-You'll get 50% of the points your project is worth when you ship the design!
+**If it gets rejected, you may have to wait up to 1 week before being re-reviewed**
 
 ---
 
