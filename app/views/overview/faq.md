@@ -75,3 +75,7 @@ Not as of right now. There are additional rewards for those who get *above* 12 p
 ### What if my project costs more than $350? Can I pay for the difference myself?
 
 Yes!
+
+### Can I use my hours for Summer of Making
+
+No! Double-dipping is not allowed.

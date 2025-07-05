@@ -16,7 +16,11 @@ Highway is a hardware electronics program where we give out grants to teenagers 
 
 Undercity is a 4-day, in-person hardware hackathon event for high school students at GitHub HQ! Your child will get together with other teens from all over the world to try to make an electronics project in under 72 hours.
 
-**Undercity is invite-only**; in order to recieve an invitation, your child will need to get to 12 points through Highway. You earn points through making projects!
+**Event start: Friday, July 11, 7:00 PM PDT (check-in anytime between 1:00 - 7:00 PM; plan to arrive early)**
+
+**Event end: Monday, July 14, 12:00 PM PDT (noon)**
+
+**Undercity is invite-only**; in order to recieve an invitation, your child will need to get to 4 points through Highway. You earn points through making projects!
 
 **Here are some video documentaries of previous Hack Club events:**
 
@@ -66,9 +70,11 @@ Hack Club has run many events before - you can watch recaps on our [Youtube chan
 
 ## Travel
 
-When your child reaches 8 points, we will send them a Travel Form to fill out. 
+When your child reaches 4 points, we will send them a Travel Form to fill out. 
 
 If you're arriving by flight, land at SFO airport.
+
+They can arrive anytime in the afternoon before the event starts to check in. 
 
 #### Visa information
 
@@ -82,7 +88,7 @@ Visa expenses will not be paid by Hack Club under any circumstances.
 
 We are giving out limited travel stipends; see the [Undercity](undercity) page for details.
 
-Your child will be reimbursed the travel stipend amount *after* they reach 12 points and finish their projects.
+Your child will be reimbursed the travel stipend amount *after* they reach 4 points and finish their projects by August 7th.
 
 Travelling by car, bus, or train? The [Hack Club Gas Fund](https://gas.hackclub.com/) can reimburse your costs! However, you'll still need an invite to come.
 
