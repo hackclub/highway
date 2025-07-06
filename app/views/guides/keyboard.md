@@ -2,7 +2,7 @@
 
 #### Tier 2 project (6 points)
 
-Hi, I'm Dodge1, and this is my guide for designing your own keyboard. It's mostly covers the stuff on the footprints/more advanced stuff as you can learn the basics for PCB design and keyboards from [hackpad](hackpad.hackclub.com) and [solder](solder.hackclub.com).
+Hi, I'm Dodge1, and this is my guide for designing your own keyboard. It's mostly covers the stuff on the footprints/more advanced stuff as you can learn the basics for PCB design and keyboards from [hackpad](https://hackpad.hackclub.com) and [solder](https://solder.hackclub.com).
 
 ## 0. Planning
 You first want to figure out a general layout for how you want the keyboard to be. Do you want it to be a full 100% standard ISO 104 keyboard or something closer to a column staggered ortholinear split 40%? You don't really need to have a finalized design as you can easily modify your schematic to add extra keys if you have GPIO pins and route them in the PCB later. To do so, you can use tools like [ergogen](https://github.com/ergogen/ergogen) ([web](https://ergogen.cache.works/)) and [Keyboard Layout Editor](https://keyboard-layout-editor.com/). There are plugins in KiCad to autoplace the PCB -you will still have to route (DO NOT USE AUTOROUTING)- and it will also make the case a bit easier but it is not required. The second part is picking your keys. While you can again do this before making the PCB and quite a few keys use the same footprints, it's still a good idea to have a vague idea of what you may want - low profile, tactile, clicky, linear, etc. Now that you have a vague idea of what you want to build, let's get started!

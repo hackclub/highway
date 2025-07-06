@@ -1,13 +1,16 @@
 <div class="border-t-4 md:border-t-0 md:border-r-4 border-[#2E2A54] text-white h-full flex flex-col gap-4 justify-start mt-8 fixed">
   <div class="flex flex-col justify-start p-8">
     <div class="text-center grid grid-cols-1 gap-2 text-xl">
-      <%# link_to "Projects", projects_path, class: "#{current_page?(projects_path) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 rounded transition duration-100 block" %>
       <%= link_to "Overview", guides_page_path("overview"), class: "#{current_page?(guides_page_path("overview")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 px-6 rounded transition duration-100 block font-dystopian" %>
-      <%# <%= link_to "Project Guidelines", guides_page_path("project-guidelines"), class: "#{current_page?(guides_page_path("project-guidelines")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 px-6 rounded transition duration-100 block font-dystopian" %> 
-      <%# <%= link_to "Submitting", guides_page_path("submitting"), class: "#{current_page?(guides_page_path("submitting")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 px-6 rounded transition duration-100 block font-dystopian" %> 
-      
       <p class="text-sm font-bold mt-6 text-left align-left">The guides!</p>
-      <%= link_to "Game Console", guides_page_path("game-console"), class: "#{current_page?(guides_page_path("game-console")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 px-6 rounded transition duration-100 block font-dystopian" %>
+      <% Dir.glob(Rails.root.join("app/views/guides/*.md")).sort.reject { |file_path| File.basename(file_path, ".md") == "overview" }.each do |file_path| %>
+        <%
+          filename = File.basename(file_path, ".md")
+          # replace dashes and capitalize first letter of each word
+          title = filename.split('-').map { |w| w[0]&.upcase.to_s + w[1..] }.join(' ')
+        %>
+        <%= link_to title, guides_page_path(filename), class: "#{current_page?(guides_page_path(filename)) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 px-6 rounded transition duration-100 block font-dystopian" %>
+      <% end %>
       <%# <%= link_to "Other communities", guides_page_path("faq"), class: "#{current_page?(guides_page_path("submit")) ? 'bg-[#564CAD]' : 'hover:bg-[#564CAD]'} bg-[#2E2A54] p-2 rounded transition duration-100 block font-dystopian" %>
     </div>
   </div>
