@@ -13,6 +13,7 @@ Here's a list of ideas that we personally think would be cool to make!
 - Devboards! (ESP32, CHV32v307, NRF52840, etc)
 - Claw machine for prizes
 - PCB Mill
+- Protogen head
 - Feel free to add more suggestions!
 
 **Less cool** (but still cool!!)
