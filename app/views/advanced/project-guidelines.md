@@ -34,7 +34,7 @@ Generally speaking, each project must be closer to a product than a demo - that 
 This is the cheapest tier. It's meant for smaller projects that take roughly 8-12 hours to design & physically build. Examples include:
 
 - DIY Macropad
-- Small mini PCB business card
+- Small mini PCB business card w/ multiple features (built-in tetris + NFC for example)
 
 ### 6 points ($150, 20-50 hours)
 This is the middle tier! It's where most projects should fall under. Generally speaking, you're expected to have both a set of electronics and 3D modelled case, unless you have a particularly complex PCB (i.e a devboard)
