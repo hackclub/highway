@@ -21,6 +21,47 @@ All meals (from dinner on Friday, to breakfast on Monday) will be provided durin
 - [Apocalypse](https://www.youtube.com/watch?v=QvCoISXfcE8): a 44h hackathon where you build to survive a zombie apocalypse
 - [The Boreal Express](https://www.youtube.com/watch?v=hiG3fYq3xUU): a 7-day hackathon on a train across Canada
 
+## Schedule:
+
+Please note that this is not final! It is meant to give you a rough idea of how this hackathon will work. You are expected to work on your hackathon project when you are not attending any workshops/activities/meals. 
+
+**Friday**
+
+- 1:00 PM - Doors open (check-in starts)
+- 7:00 PM - Opening Ceremony
+- 8:00 PM - Dinner
+- 9:00 PM - Hacking begins! 
+- 10:00 PM - Workshop #1 
+- 11:00 PM - Sleeping rooms open 
+
+**Saturday**
+
+- 12:00 AM - Midnight snacks
+- 7:00 AM - Breakfast
+- 10:00 AM - Workshop #2
+- 12:00-4:00 PM - Outdoors lunch (for those who have freedom wavier signed; if not, food will be brought to venue)
+- 4:00 PM - Activities + Workshop #3 
+- 7:00 PM - Dinner + Lightning talks!
+- 8:00 PM - Activities
+
+**Sunday**
+
+- 12:00 AM - Midnight snacks
+- 7:00 AM - Breakfast
+- 12:00 PM - Lunch
+- 2:00 PM - Workshop #4
+- 5:00 PM - Activities
+- 7:00 PM - Dinner
+- 10:00 PM - Activities
+
+**Monday**
+
+- 7:00 AM - Breakfast
+- 8:00 AM - Hacking ends!
+- 8:15 AM - Voting + Demos
+- 11:00 AM - Closing Ceremony 
+- 12:00 AM - Undercity ends
+
 <img src="/hackathons.png" style="width: full" class=""></img>
 
 ## Travel
