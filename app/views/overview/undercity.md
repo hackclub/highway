@@ -60,7 +60,7 @@ Please note that this is not final! It is meant to give you a rough idea of how 
 - 8:00 AM - Hacking ends!
 - 8:15 AM - Voting + Demos
 - 11:00 AM - Closing Ceremony 
-- 12:00 AM - Undercity ends
+- 12:00 PM - Undercity ends
 
 <img src="/hackathons.png" style="width: full" class=""></img>
 
