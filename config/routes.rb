@@ -63,4 +63,6 @@ Rails.application.routes.draw do
   get "/guides/", to: redirect("/guides/overview")
 
   get "/events", to: "events#index"
+
+  get "/schedule", to: "schedule#index"
 end
