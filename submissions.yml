@@ -1,4 +1,5 @@
 projects:
+  - "https://github.com/las-vejas/Wind47"
   - "https://github.com/jaydenaleung/portcullis"
   - "https://github.com/Aaruni29/LED_CLOCK"
   - "https://github.com/Hasnat4763/time-o-matic"
@@ -788,3 +789,5 @@ projects:
   - "https://github.com/the-X-alien/Converto"
   - "https://github.com/Firestorm108/PurpleMistMachine"
   - "https://github.com/AdrianR3/GripCtrl"
+  - "https://github.com/Skeffry/Flight-Stick"
+  - "https://github.com/Keyaan-07/PicoKey"
