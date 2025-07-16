@@ -1,14 +1,16 @@
-# The checklist for making industrial grade pcbs
+# The checklist for making mass produced pcbs
 
 So I've been charged with the amazing opportunity of making the badges for undercity. (Thanks acon and alex!) And during this process, I've learnt a lot. So I'm going to write the lessons learnt for future reference :)
 
 *Organizing*
+
 * Always write up a clear schedule - make a plan of how long everything takes (So called "Cahier des charges")
 * Find people you can trust and share tasks with them
 * Communicate clearly - don't be afraid of bothering people
 * You might need to bump people
 
 *Schematic*
+
 * Use Altium or KiCAD, never easyeda
 * Make it clear and readable, organize everything into functional blocks
 * Everything must fit in the A4 paper, if not make a new sheet
@@ -16,6 +18,7 @@ So I've been charged with the amazing opportunity of making the badges for under
 * You can find a lot of these references here: https://certification.oshwa.org/list.html
 
 *PCB*
+
 * Use the default KiCAD drc rules
 * Use mostly .3 .6 vias, .2 .45 are only reserved for emergencies
 * Follow best practices - the max amount of vias per signal lane is 2, I doubt HC will have custom merch that is complex, so if you have more then 2 vias you did something wrong
@@ -31,6 +34,7 @@ So I've been charged with the amazing opportunity of making the badges for under
 * Prefer cheaper components over basic JLCPCB parts
 
 *Ordering*
+
 * Kidnap at least 5 people to check your design
 * Never trust the others that you kidnapped, double check everything yourself
 * Draw out how everything will fit together
@@ -44,9 +48,8 @@ So I've been charged with the amazing opportunity of making the badges for under
 * Pay for production file confirmation
 
 *Firmware*
+
 * Check the USB-C cable, 99% of the time it's the cable's fault
-* Arduino, RP2040s and RP2350s are bad
-* Embedded is bad (Get an FPGA :P)
 * Use a Makefile to make a good build system - don't use arduino IDE
 * Do not trust libraries on the web even if it has 1k stars, they are a scam and doesn't work
 * Always download example code straight from the manufactures
