@@ -78,4 +78,4 @@ Yes!
 
 ### Can I use my hours for Summer of Making
 
-Yes!
+No! Double-dipping is not allowed.

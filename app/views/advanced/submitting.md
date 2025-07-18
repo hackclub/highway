@@ -64,13 +64,17 @@ It'll send over your project to our queue to be approved! When we review it, you
 
 We'll try to get back to you within 3-4 weekdays.
 
-_**Please do *not* use #highway-pitstop for anything other than submitting**_
+*Please do not use #highway-pitstop for anything other than submitting*
 
 ## Next steps
 
 If you get approved, you'll get an HCB card grant in your email within 12 hours!
 
-**If it gets rejected, you may have to wait up to 1 week before being re-reviewed**
+If your project was rejected, you'll be pinged in #highway-pitstop with the reason - usually it's small! Once you've made your changes, please fill out the re-review form:
+
+[https://forms.hackclub.com/highway-rereview](https://forms.hackclub.com/highway-rereview)
+
+You may need to wait up to a week for re-review
 
 ---
 
