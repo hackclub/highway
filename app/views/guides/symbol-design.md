@@ -68,3 +68,4 @@ Now that you sucessfully created all of your symbols/footprints you can go back 
 _Last note: don't forget to assign it a footprint by double clicking then changing the footprint field!_ \
 On this, i'm going to sleep, I hope this helped someone and if you see any error, just dm me on slack!
 
+Note from Cyao: Uh guys you need to make sure that every pin in the symbol has a pin number, and it matches the footprint pin numbers!!! The guide forgot pin numbers on the pin 2, 3 and 4.
