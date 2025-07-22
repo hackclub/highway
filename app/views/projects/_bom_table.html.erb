@@ -1,0 +1,18 @@
+<table class="min-w-full bg-[#302C61] text-white rounded">
+  <thead>
+    <tr>
+      <% CSV.parse(bom.lines.first).first.each do |header| %>
+        <th class="px-4 py-2 border-b border-[#62D5C3] font-bold"><%= header %></th>
+      <% end %>
+    </tr>
+  </thead>
+  <tbody>
+    <% CSV.parse(bom, headers: true).each do |row| %>
+      <tr>
+        <% row.each do |_, value| %>
+          <td class="px-4 py-2 border-b border-[#403A88]"><%= value %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

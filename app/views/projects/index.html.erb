@@ -1,7 +1,7 @@
 <div class="mt-20 md:mt-12 p-8 md:p-12">
 
   <p class="font-dystopian text-4xl flex flex-col justify-center text-center">Project Gallery</p>
-  
+
   <% if @projects.any? %>
     <div class="flex flex-col justify-center text-center">
       <p class="opacity-70">Check out what others are building!</p>
@@ -15,6 +15,15 @@
       <p class="font-bold opacity-70 mt-8"><i>Did you forget to run <code>bin/rails projects:clone</code>? ;-P</i></p>
     <% end %>
   <% end %>
+
+  <div class="flex justify-center mb-8">
+    <%= form_with url: projects_path, method: :get, local: true, class: "w-full max-w-lg" do |form| %>
+      <div class="flex">
+        <%= form.text_field :q, value: params[:q], placeholder: "Search projects...", class: "flex-grow px-4 py-2 rounded-l bg-[#2E2A54] text-white border border-[#403A88] focus:outline-none" %>
+        <%= form.submit "Search", class: "bg-[#62D5C3] text-[#3A5CE1] px-4 py-2 rounded-r font-bold hover:bg-[#4bbfae] transition" %>
+      </div>
+    <% end %>
+  </div>
 
   <div class="grid xl:grid-cols-3 gap-4 mt-4 md:grid-cols-2 grid-cols-1">
     <% @projects.each do |project| %>
@@ -47,13 +56,6 @@
         </div>
         <% if project.description.present? %>
           <p class="opacity-80 mt-auto"><%= project.description.truncate(120) %></p>
-        <% end %>
-        <% if Rails.env.development? %>
-          <summary>
-            <details>
-              <%= project.inspect %>
-            </details>
-          </summary>
         <% end %>
       </div>
     <% end %>

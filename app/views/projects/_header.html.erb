@@ -27,11 +27,40 @@
         </div>
 
         <% if project.description.present? %>
-            <p class="text-center text-md opacity-80 max-w-2xl mt-4">
-                <%= project.description %>
-            </p>
+          <p class="text-center text-md opacity-80 max-w-2xl mt-4">
+            <%= project.description %>
+          </p>
         <% end %>
 
-    </div>
+        <!-- view bom -->
+        <% if @project.has_bom? %>
+          <button 
+            id="view-bom-btn"
+            class="mt-6 bg-[#62D5C3] text-[#3A5CE1] px-4 py-2 rounded font-bold hover:bg-[#4bbfae] transition"
+            onclick="document.getElementById('bom-modal').classList.remove('hidden')"
+            type="button"
+          >
+            View BOM
+          </button>
 
+          <div 
+            id="bom-modal"
+            class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 hidden"
+            style="backdrop-filter: blur(2px);"
+          >
+            <div class="bg-[#2E2A54] rounded-2xl shadow-2xl p-8 max-w-3xl w-full relative border-2 border-[#62D5C3]">
+              <button 
+                class="absolute top-4 right-4 text-white text-2xl hover:text-[#62D5C3] transition"
+                onclick="document.getElementById('bom-modal').classList.add('hidden')"
+                aria-label="Close"
+                type="button"
+              >&times;</button>
+              <h2 class="text-2xl font-bold mb-4 text-[#62D5C3] font-dystopian">Bill of Materials</h2>
+              <div class="overflow-x-auto w-full" style="max-height:60vh; overflow-y:auto;">
+                <%= render partial: 'projects/bom_table', locals: { bom: @project.bom_csv } %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+    </div>
 </div>

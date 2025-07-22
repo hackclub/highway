@@ -45,9 +45,7 @@ class Project
   def created_at_date
     return nil unless created_at
     return created_at if created_at.is_a?(Date)
-    Date.parse(created_at)
-  rescue Date::Error
-    nil
+    Date.parse(created_at) rescue nil
   end
 
   def formatted_created_at
@@ -60,7 +58,6 @@ class Project
   end
 
   def has_journal?
-    # Find journal file, case-insensitive
     dir = Rails.root.join("content/projects", user, project_name)
     Dir.glob(File.join(dir, "*")).any? { |f| File.basename(f).downcase == "journal.md" }
   end
@@ -68,25 +65,18 @@ class Project
   def self.all
     Dir.glob(Rails.root.join("content/projects/*/*")).map do |dir|
       next unless File.directory?(dir)
-
-      # Extract user and project name from path
       path_parts = dir.split("/")
       user = path_parts[-2]
       project_name = path_parts[-1]
-
-      # Find journal file, case-insensitive
       journal_path = Dir.glob(File.join(dir, "*")).find { |f| File.basename(f).downcase == "journal.md" }
-
       metadata = {}
       if journal_path && File.exist?(journal_path)
         content = File.read(journal_path)
         metadata, _ = parse_frontmatter(content)
       end
-
       unless Rails.env.development?
         next if user == "hackclub" && project_name == "awesome-project"
       end
-
       new(
         user: user,
         project_name: project_name,
@@ -102,20 +92,14 @@ class Project
     all.select do |project|
       journal_path = Rails.root.join("content/projects", project.user, project.project_name, "journal.md")
       next false unless File.exist?(journal_path)
-
       content = File.read(journal_path)
       metadata, _ = parse_frontmatter(content)
-
-      # Check if all required metadata is present
       required_fields = [ "title", "author", "description", "created_at" ]
       next false unless required_fields.all? { |field| metadata[field].present? }
-
-      # Update the project with metadata
       project.instance_variable_set(:@title, metadata["title"])
       project.instance_variable_set(:@author, metadata["author"])
       project.instance_variable_set(:@description, metadata["description"])
       project.instance_variable_set(:@created_at, metadata["created_at"])
-
       true
     end
   end
@@ -124,10 +108,8 @@ class Project
     dir = Rails.root.join("content/projects", user.downcase, project_name.downcase)
     journal_path = Dir.glob(File.join(dir, "*")).find { |f| File.basename(f).downcase == "journal.md" }
     return nil unless journal_path
-
     content = File.read(journal_path)
     metadata, markdown_content = parse_frontmatter(content)
-
     new(
       user: user,
       project_name: project_name,
@@ -137,5 +119,14 @@ class Project
       created_at: metadata["created_at"],
       content: render_markdown(markdown_content, user, project_name)
     )
+  end
+
+  def has_bom?
+    File.exist?(Rails.root.join("content/projects", user, project_name, "bom.csv"))
+  end
+
+  def bom_csv
+    path = Rails.root.join("content/projects", user, project_name, "bom.csv")
+    File.exist?(path) ? File.read(path) : nil
   end
 end
