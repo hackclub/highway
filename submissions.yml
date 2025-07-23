@@ -1,4 +1,5 @@
 projects:
+  - "https://github.com/KaiPereira/Driver-Board"
   - "https://github.com/Hasnat4763/super-duper-octo-eureka"
   - "https://github.com/KaiPereira/PR1SM"
   - "https://github.com/abdurrafey-amir/desk-assistant"
@@ -135,7 +136,7 @@ projects:
   - "https://github.com/Broodierlake140/Nerf-car"
   - "https://github.com/devramsean0/eink-watch"
   - "https://github.com/cookiemonsternz/lensboard"
-  - "https://github.com/Overlord-Runt/rc-car-with-a-arm"
+  - "https://github.com/Overlord-Runt/taranium-rover"
   - "https://github.com/pizzalover125/cyberdeck"
   - "https://github.com/QinCai-rui/RasPiCube"
   - "https://github.com/QinCai-rui/SmartClockPi"
@@ -873,3 +874,7 @@ projects:
   - "https://github.com/WilliamPrime/Kb00-Cursed10"
   - "https://github.com/DevaanshPathak/ScopeZero"
   - "https://github.com/Daprinternerd/Ghost-Studios"
+  - "https://github.com/O-Lidenbrock/Reminton-Num-1.1"
+  - "https://github.com/opticaldrive/swishwings"
+  - "https://github.com/opticaldrive/keypie"
+  - "https://github.com/Sn3akySqu1d/Squidboard"
