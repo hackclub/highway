@@ -50,6 +50,9 @@ Arduinos are fairly outdated by todays standards
 - If you're from another country, use JLCPCB, they offer PCBs for under $6 shipped as long as its under 100x100mm
 - If you're from the US specifically, use PCBWAY. They're roughly half the cost of JLCPCB because they're able to avoid tariffs somehow
     - Read here: [link](https://www.pcbway.com/blog/News/Impact_of_the_New_U_S_Tariff_Policy_on_Customs_Clearance_51dff4fd.html)
+- EING is not allowed unless you have golden fingers (on-PCB USB-C contacts etc. and this is also subject to a case by case approval, please also mention it to your reviewer).
+- Edge plating isn't allowed if it is only for the looks.
+- You should just choose the cheapest options that gives you a working pcb
 
 ### Batteries (Li-Po, CR2032, AA, etc)
 
