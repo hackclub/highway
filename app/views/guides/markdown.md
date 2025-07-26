@@ -10,8 +10,6 @@ This is different from the How To Ship tutorial in that this shows you how to wr
 
 First we go over the basic things you need to know when making a markdown
 
-
-
 ### Titles
 
 ---
@@ -59,30 +57,6 @@ hi
 How are you?
 ```
 You dont put a backward slash on the last line of a paragraph, it wont do anything and you will be able to see the slash in the markdown.
-
-
-
-### Images
-
----
-![image](/app/assets/images/logo.png)
-
-Images are really important for a good readme and journal. But you can't just drop them in like a google doc, you need to add them into your repo and link them in.
-
-First make an assets folder in your repo and put all your screenshots and photos inside there\
-![screenie](/app/assets/images/markdownimage.png)\
-your repo should look somewhat like that. Maybe not as many images but should have the same structure.
-
-Next you can link your image into the markdown file.\
-Use this line:
-```
-![alt text](assets/image.png)
-```
-
-alt text should be a one word describer for the image. It is usually hidden but shows if the image fails to load. Always keep this in square brackets.\
-Next assets/image.png is the filepath for the image. Keep this in curved brackets.\
-If you have multiple images in a row, you need to put back slashes to separate them similar to normal text.
-
 
 
 ### Lists
