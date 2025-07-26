@@ -78,13 +78,8 @@ You may need to wait up to a week for re-review
 
 ---
 
-## Submitting your final build
+## Submitting your final physical build
 
-Finished building your project IRL? 
+Got your parts and finished assembling everything? Check out the [demo instructions here!](/advanced/demo)
 
-Two things you need to do:
-
-1. Post a demo on Reddit! Here's an [example of a post by @cyao](https://www.reddit.com/r/embedded/comments/1kwx5p7/i_built_the_fpga_raspberry_pi_zero_equivalent/).
-2. For those who made a custom project - make a magazine page for it! Instructions on this [Figma design file](https://www.figma.com/design/JrUtKGmZKVaT8t2z12oybV/magazine-?node-id=0-1&t=qPMHT9OHuyUDMGj8-1) - we're going to physically print out a magazine, where each page has a project on it.
-
-Then, fill out the [Demo Form](https://forms.hackclub.com/highway-demo) - we'll look at it in a few days and let you know if it's been approved!
+**You will not get any rewards without physically building your project, including travel stipend**
