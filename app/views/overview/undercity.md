@@ -87,7 +87,7 @@ You'll qualify for a reimbursment once your **projects have been reviewed + reac
 
 Base stipend is 75 USD. You can also earn additional stipends for points above 4, starting at 6 points.
 - If you're in North America, we will reimburse you +50 USD at 6 points
-- If you're international, we will reimburse you +175 USD et 6 points
+- If you're international, we will reimburse you +175 USD at 6 points
 
 A needs-based stipend application will also be available. 
 
