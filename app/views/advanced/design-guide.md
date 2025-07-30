@@ -18,7 +18,7 @@ This is the first step of the process! During this time, you should figure out w
 
 ### 1.1. Electrical component selection & sourcing
 
-Next up is to pick the components for that 
+Next up is to pick the components for that
 
 Try to avoid getting hung up passives. If there's multiple parts that are the same functionality
 
@@ -28,13 +28,39 @@ For actual sourcing & finding links, please refer to the [Part Sourcing](/advanc
 
 ### 2. CAD
 
+**CAD (Computer-Aided Design)** refers to creating digital models of physical parts and enclosures.
+
+Design mounts, housings, etc. Projects should have a case!
+
+Add tolerances for fit: ~0.2–0.5 mm for sliding parts; tighten or loosen based on material shrinkage
+
+Make it visually clean! It shouldn't just be a box.
+
+Export only `.step` or `.3mf` files!
+
+
+
 ---
 
 ### 4. PCB
 
+
+**PCB (Printed Circuit Board)** design maps electrical connections between components.
+
+- Use KiCad schematics and routing
+- Simulate circuits with [Falstad](https://www.falstad.com/circuit/)
+- For tips and examples, check [Solder Start Guide](https://solder.hackclub.com/start!)
+
+
 ---
 
 ### 5. Firmware
+
+**Firmware** is a type of low-level software permanently programmed to control hardware.
+
+This is very dependent on your project, but always document this in your journal!
+
+
 
 ---
 
