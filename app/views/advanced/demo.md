@@ -23,6 +23,8 @@ Share your project online! Reddit is *heavily* preferred, but Printables is also
 
 An example post is [@Cyao's Icepi Zero](https://www.reddit.com/r/embedded/comments/1kwx5p7/i_built_the_fpga_raspberry_pi_zero_equivalent/) - he's a 17-year old Hack Clubber from France!
 
+We would also REALLY appreciate it if you could plug Hack Club!!! No pressure though - just helps to spread the word :)
+
 ### 4. Make a magazine page!
 
 We're making a Highway to Undercity magazine! Vol 1 has already been printed, but we're making a Vol 2 that'll be bigger and better. In the past two weeks, Vol 1 has been given out to Michael Reeves, Strange Parts, lots of large companies, and more - we're planning on going even bigger than that!

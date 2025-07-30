@@ -8,15 +8,25 @@ Before you submit anything, you should post your project in #highway for feedbac
 
 ## Requirements
 
+Generally speaking, all you need is a [shipped project](/advanced/shipping). The following requirments are the bare minimum, but you're encouraged to go above and beyond! Add a 3D render, custom logo, and more!
+
 Before submitting, please *absolutely* make sure of the following:
 
 **Your project has a journal in the [gallery](/projects)**
 
+### YOUR PROJECT IS ACTUALLY COMPLETE:
+- [x] It has a complete CAD assembly, with all components (including electronics)
+- [x] You have firmware present, even if it's untested
+- [x] You have sanity checked your design with someone else
+- [x] (optional) you have a 3D render of your project!
+
 ### YOUR GITHUB REPOSITORY CONTAINS ALL OF YOUR PROJECT FILES:
 - [x] a BOM, in CSV format in the root directory, WITH LINKS
-- [x] the source files for your PCB, if you have one
-- [x] the source files for your CAD model, if you have one
-- [x] ANY other files that are part of your project.
+- [x] the source files for your PCB, if you have one (.kicad\_pro, .kicad\_sch, gerbers.zip, etc)
+- [x] **A .STEP file of your project's 3D CAD model (and ideally the source design file format as well - .f3d, .FCStd, etc)**
+- [x] ANY other files that are part of your project (firmware, libraries, references, etc)
+
+*if you're missing a .STEP file with all of your electronics and CAD, your project will not be approved*
 
 ### YOUR README.md FILE CONTAINS THE FOLLOWING:
 - [x] A short description of what your project is
