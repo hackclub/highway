@@ -27,11 +27,15 @@ USB (**excluding PD bricks**) gives a voltage of 5. If an `MCU` expects a differ
 For the RP2040, it requires 3.3Vs, so we could use any `LDO` that can drop 5 volts to 3.3 volts (preferably a fixed converter with a high enough maximum amp load). 
 Different `LDOs` may have different recommended layouts, so please make sure to check the documentation of the one you are using for this. 
 
+
+*note: The reason I say drop from 5 volts to 3V3 is because that is the general supply voltage of USB-A, and is also supported by USB-C, but please do what you need*
+
+
 For my board, I used the `NCP1117`, which in the data sheet tells the user to use the following layout:
 ![image](https://github.com/user-attachments/assets/8f3375d9-2d86-43d2-93d2-58f1b2a6d4d1)
 
 ---
-#### If you plan to use a USB-C to USB-C connection, you must use pull-down resistors of 5.1k Ω
+#### If you plan to use a USB-C to USB-C connection, you must use pull-down resistors of 5.1k Ω. This is because USB-C requires devices to specify whether they are a *host* (like a PC) or a tool the host uses (like a keyboard)
 ![image](https://github.com/user-attachments/assets/70a32756-9c88-4263-8b58-4d60f0160d30)
 
 ---
@@ -66,7 +70,7 @@ The wiring for this specific flash and MCU should be as follows (with the 100nF 
 
 ![image](https://github.com/user-attachments/assets/0c14d190-39e1-4723-8085-e3c78aa2a0a2)
 
-The QSPI_SS pin is special because when pulled down, it enables BOOTSEL mode if the chip is starting up (or reset), which is the mode where one is able to flash the controller which their code. Normally, the QSPI_SS pin is floating shortly after startup, and then proceeds to be pulled up. To ensure proper behavior, the QSPI_SS pin might need to be pulled up to 3.3V through a 10k Ω resistor, but `with this combination of MCU and memory`, it has been proven to not be needed
+The QSPI_SS pin is special because when pulled down, it enables BOOTSEL mode if the chip is starting up (or reset), which is the mode where one is able to flash the controller which their code. Normally, the QSPI_SS pin is floating shortly after startup, and then proceeds to be pulled up. To ensure proper behavior, the QSPI_SS pin might need to be pulled up to high through a resistor, but `with this combination of MCU and memory`, it has been proven to not be needed
 
 With any flash for the RP2040, the QSPI_SS pin should have some way to be switched to ground through a 1k Ω resistor (which could be something like a button as shown but could also be headers that one has to connect)
 
@@ -77,7 +81,7 @@ An oscillator serves as the basis for each tick/clock cycle in a microcontroller
 
 If you are working with the RP2040, you should use the `ABM8-272-T3` (12 MHz crystal) due to it being tested in various conditions (such as varying temperatures) and found to be steady. 
 
-Additionally, depending on the voltage given to the MCU a resistor should be placed from the output for the crystal from the MCU to prevent too much current. If you are using 3.3 volts, you should have 1k Ω of resistance.
+Additionally, depending on the voltage given to the MCU a resistor should be placed from the output for the crystal from the MCU to prevent too much current from going to the crystal. The amount of resistance can vary depending on your setup, so please look at the documentation!
 
 Next, the load capacitance for the crystal should be split among the input and output pins, with the total being calculated as: (C2*C3)/(C2+C3). This total should be slightly under the load capacitance because of natural capacitance (`parasitic capacitance`) between components when under current (due to magnetic fields). Assuming around 3pF of extra capacitance should be fine ***if you keep your traces short and direct when routing***
 
@@ -90,12 +94,15 @@ Keeping all these considerations in mind, the wiring of the crystal should look 
 
 For the most part, IO pins can be wired as you please, but it would be a good idea to include multiple ground pins to reduce interference from noise affecting GPIO pins (which should have little to no impact if used for low-speed circuits, but it is better to include it to offer support for work with higher frequency).
 
+If your chip has a `chip enable` pin, and it is not pulled to the value it needs to be to allow the chip to be active, you must include a resistor pulling it either high or low depending on documentation 
+
 To reset the board for any purpose (including BOOTSEL mode), the `chip enable` pin (called RUN for the RP2040) should be pulled down. For ease-of-use I recommend including a button or pin headers through a 1k Ω resistor to ground, similar to the QSPI_SS pin.
 
 *Note: For the header footprints, you should use the one with `2.54 mm` spacing due to that being the most common standard*\
 *Also, you may wish to include SWDIO and SWCLK on some pins, and these are mainly used for debugging*
 
 ![image](https://github.com/user-attachments/assets/dd96603e-2a0e-47a0-af53-5f59c600d1a5)
+
 
 ---
 ## Routing the PCB
@@ -136,6 +143,48 @@ tune skew of differential pair)
 - Depending on the power usage, it might be a good idea to increase the trace width for power traces
   
 ![image](https://github.com/user-attachments/assets/2597f66f-bd8c-42e2-ad44-9ad49480c6df)
+
+
+## Firmware
+
+- Alright, now this stage might be a `long while` from when you designed your board (at least it was for me), but there are multiple ways that you can go about creating `firmware`, or the code that your custom devboard actually computes and runs
+
+---
+### C/C++
+
+One common language that you could use is `C` or `C++`, which would involve using an SDK (development kit) depending on what chip you used. If you followed along with the guide and made a board using the RP2040, you would be using the `RP2040 SDK` from the PI Foundation, which gives basic modules for controlling GPIOs.
+
+Two notes are that certain parts, such as `PIO`, might be written in a different language, such as PIO Assembly, and also, you will have to compile your code into a `bin`, or `binary`, file for it to actually run, which will require you to download certain tools.
+
+
+For this option, there are many resources that you could use, especially [documentation](https://www.raspberrypi.com/documentation/pico-sdk/index_doxygen.html), [youtube videos](https://www.youtube.com/watch?v=a4uLrfqHZQU&list=PLDqMkB5cbBA4GisLzRSqw5x5G38M4zlkr&index=1) (this is a ***really*** long series by a college professor, but has really in-depth information), and maybe even existing C/C++ implementations.
+
+---
+### Circuitpython/Micropython
+
+Integrating these libraries into your board is actually pretty easy, and there are two routes you could go.
+
+---
+**1: Reuse existing board configs**
+
+
+This route just means downloading an existing binary for Circuit/Micro python and running it on your board. This works best when you use a board that has a similar chip (ex. using the bin for the Pi Pico if you used the RP2040 chip). Some pin aliases, such as "LED" for the Pi Pico might control a GPIO pin due to naming configs. However, you would still be able to use GP25 to reference it.
+
+<img width="464" height="68" alt="image" src="https://github.com/user-attachments/assets/c9d8b3e7-cb18-4cd0-ab4b-905a5cf6c2fa" />
+
+---
+**2: Copy existing board config and edit it to fit your board**
+
+This is pretty similar to the first option, but instead you clone the public Github repo for Circuit/Micro python and edit the configs and then build it into a custom bin file.
+
+Generally, the thing that you would most often change would be the pin names, which should be in the Pins.C file under `{Micro or Circuit python}/ports/{manufacturer}/boards/{board_name}/Pins.C` and be pretty easy to change based on the naming conventions.
+
+
+There is also a [guide](https://learn.adafruit.com/how-to-add-a-new-board-to-circuitpython/overview) that Adafruit has made detailing every single step of this process, and it's really helpful/detailed. Even if you're using Micropython, I would recommend looking at the guide since Circuitpython is a fork of Micropython.
+
+
+*PS. Adafruit also allows you to submit a Pull Request and they maintain a new binary for when Circuitpython gets updated, so you don't have to!*
+
 
 **Ok guys now for the MOST important rule when designing**
 
