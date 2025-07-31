@@ -70,6 +70,10 @@ Wifi can get messed up by metal, and having the board so close is definitely not
 
 And that's about it. I'll leave the wiring part up to you, but normally you should keep the decoupling capacitors (C1 & C2 in the first schematic) as close as possible two the chip.
 
+Another thing is that the USB line should preferably have matched impedance. RaspberryPi.com explains it pretty good on chapter 2.4.1 of this guide: https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf
+
+Basically, if you are using a 1mm thick board and you use 0.8mm wide tracks on USB DP/D+ and DM/- lines, with a gap of 0.15mm between them, you'll get the ideal differencial impedance of 90 ohms.
+
 ## Step 4: User features.
 
 The board as it is right now will work, but it will be a pain to debug and use fully.
@@ -96,4 +100,3 @@ So, I would suggest throwing them in wherever you feel like there is a chance th
 <img width="206" height="444" alt="image" src="https://github.com/user-attachments/assets/0478aa16-1d00-4a7b-af2e-c240616ee8fe" />
 
 That's it, and well if you need you can contact me on slack (@madhav)
-
