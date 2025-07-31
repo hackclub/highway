@@ -8,15 +8,25 @@ Before you submit anything, you should post your project in #highway for feedbac
 
 ## Requirements
 
+Generally speaking, all you need is a [shipped project](/advanced/shipping). The following requirments are the bare minimum, but you're encouraged to go above and beyond! Add a 3D render, custom logo, and more!
+
 Before submitting, please *absolutely* make sure of the following:
 
 **Your project has a journal in the [gallery](/projects)**
 
+### YOUR PROJECT IS ACTUALLY COMPLETE:
+- [x] It has a complete CAD assembly, with all components (including electronics)
+- [x] You have firmware present, even if it's untested
+- [x] You have sanity checked your design with someone else
+- [x] (optional) you have a 3D render of your project!
+
 ### YOUR GITHUB REPOSITORY CONTAINS ALL OF YOUR PROJECT FILES:
 - [x] a BOM, in CSV format in the root directory, WITH LINKS
-- [x] the source files for your PCB, if you have one
-- [x] the source files for your CAD model, if you have one
-- [x] ANY other files that are part of your project.
+- [x] the source files for your PCB, if you have one (.kicad\_pro, .kicad\_sch, gerbers.zip, etc)
+- [x] **A .STEP file of your project's 3D CAD model (and ideally the source design file format as well - .f3d, .FCStd, etc)**
+- [x] ANY other files that are part of your project (firmware, libraries, references, etc)
+
+*if you're missing a .STEP file with all of your electronics and CAD, your project will not be approved*
 
 ### YOUR README.md FILE CONTAINS THE FOLLOWING:
 - [x] A short description of what your project is
@@ -78,13 +88,8 @@ You may need to wait up to a week for re-review
 
 ---
 
-## Submitting your final build
+## Submitting your final physical build
 
-Finished building your project IRL? 
+Got your parts and finished assembling everything? Check out the [demo instructions here!](/advanced/demo)
 
-Two things you need to do:
-
-1. Post a demo on Reddit! Here's an [example of a post by @cyao](https://www.reddit.com/r/embedded/comments/1kwx5p7/i_built_the_fpga_raspberry_pi_zero_equivalent/).
-2. For those who made a custom project - make a magazine page for it! Instructions on this [Figma design file](https://www.figma.com/design/JrUtKGmZKVaT8t2z12oybV/magazine-?node-id=0-1&t=qPMHT9OHuyUDMGj8-1) - we're going to physically print out a magazine, where each page has a project on it.
-
-Then, fill out the [Demo Form](https://forms.hackclub.com/highway-demo) - we'll look at it in a few days and let you know if it's been approved!
+**You will not get any rewards without physically building your project, including travel stipend**
