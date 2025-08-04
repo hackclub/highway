@@ -1,7 +1,7 @@
 # Double Row Keyboards!
 A term I completely made up.
 
-But a startegy that works really well if you want to make large keyboards with lots of functions but dont want to use an io expander.
+But a strategy that works really well if you want to make large keyboards with lots of functions but dont want to use an io expander.
 My name is Taran and I am here to teach you about a cool technique that even I don't even know how I thought up of.
 
 ## Wtf am I talking about?
@@ -83,7 +83,7 @@ Random Pointers
 ## Firmware
 But taran, if I do this, wouldnt the firmware be super hard to code???????
 
-Yes and no. It will be more difficult thank just a normal layout but that doesn't mean its really difficult. as long as you used the above pointers and have your schematic open in split screen while you make the firmware to cross reference the keymap, you should be fine.
+Yes and no. It will be more difficult than just a normal layout but that doesn't mean its really difficult. as long as you used the above pointers and have your schematic open in split screen while you make the firmware to cross reference the keymap, you should be fine.
 
 If you want an example of a keyboard that uses this, look [here](https://github.com/Overlord-Runt/runtboard)
 
