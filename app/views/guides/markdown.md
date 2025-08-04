@@ -50,7 +50,7 @@ I am great thanks!
 
 #### Paragraph breaks
 
-To create a break for a paragraph you just press enter twice\
+To create a break for a paragraph you just press enter twice
 ```
 hi
 
@@ -106,7 +106,41 @@ Alt text is the text that the link appears as.\
 [it looks like this](https://hackclub.com)
 
 
+### Images
 
+
+---
+Images are formatted similar to links but with an ! in front
+```
+![alt text](path/image.png)
+```
+alt text is the text that appears if the image breaks/doesnt work
+
+you can use stuff like cdn links instead of paths but I personally prefer putting all my images in an assets folder and then using a filepath to them instead since its faster than individually uploading and copy-pasting cdn links.
+
+### Tables
+
+
+---
+To make a table in markdown, you need to use lines(idk what the real name is and no I will not google it). they look like this: |\
+you can find then near your enter/return key
+
+Tables are formatted as so:
+```
+|Column1|Column2|Column3|etc etc|
+|-------|-------|-------|-------|
+|cel data|coolio|stinky|not blank|
+|alpha|beta|stinkier||
+```
+Each column is separated by a |.\
+The headings have a row underneath them that contain dashes(-). you need at minimum 3 dashes for each cell here.\
+To leave a box blank you just leave it with nothing in between the |s
+
+A table done properly should look like this:
+|Column1|Column2|Column3|etc etc|
+|-------|-------|-------|-------|
+|cel data|coolio|stinky|not blank|
+|alpha|beta|stinkier||
 
 ## Advanced/Extra stuff
 
@@ -148,7 +182,7 @@ Line breaks can be added with `---`
 ---
 Looks like that^
 
-Any line directly above a break will become a title, put a line space between to make it not happen
+Any line directly above a break will become a title, put a line space inbetween to make it not happen
 
 ---
 
@@ -163,9 +197,8 @@ Through codeblocks.
 
 To use a code block, put `s on either end of the line.\
 Like so:
-``hi``
-
 ```
+`hi`
 You can find this above the tab button
 It is not an apostrophe
 ```
@@ -192,5 +225,9 @@ To add a quote, use > in front of the line with a space.\
 
 > This makes the text look like this
 
+Good for quoting texts, paste statements, code and whatever else you want to do with it.
+
 That should be everything you need to know about markdowns.\
 If you feel I have missed something or want to add something yourself, dm `@Taran The Idiot` on slack or make a pr to add it.
+
+If I see more bad readmes after this, I will find you.
