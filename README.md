@@ -1,3 +1,5 @@
+<img width="960" height="400" alt="image" src="https://github.com/user-attachments/assets/89a79b4e-6498-441f-b7f7-88ffa031b068" />
+
 # Highway to Undercity
 
 Highway is a hardware grant program where you can design any project, and we'll send you the parts & funding up to 350 USD *per project* you need to build it!
@@ -6,9 +8,13 @@ Repeat to get invited to Undercity, a 4-day hardware hackathon, July 11-14 @ Git
 
 There's both beginner & advanced tracks, so everyone is included. There'll be new content, freebies, and other awesome stuff from now until July 31st.
 
+Highway site: [highway.hackclub.com](https://highway.hackclub.com)
+
+Undercity recap: [undercity.hackclub.com](https://undercity.hackclub.com)
+
 ## How to start
 
-If you're making a custom project, this is your place to start!
+If you're making a custom project, this is your place to add it to the gallery!
 
 *Remember to read through the [Project guidelines](https://highway.hackclub.com/advanced/project-guidelines).*
 
@@ -23,8 +29,6 @@ projects:
 ```
 
 We'll check if you have a README.md and JOURNAL.md file, and merge it after that. You're free to start working on your project! 
-
-If you're making an Advanced custom project (grant up to 350 USD, 10 points) - remember to pitch it in #highway-pitstop first.
 
 ## How to submit
 
