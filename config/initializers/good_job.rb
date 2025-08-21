@@ -9,10 +9,10 @@ Rails.application.configure do
 
   config.good_job.enable_cron = Rails.env.production?
   config.good_job.cron_graceful_restart_period = 1.minute
-  config.good_job.cron = {
-    clone_projects: {
-      cron: "*/10 * * * *",
-      class: "CloneProjectsJob"
-    }
-  }
+  config.good_job.cron = {}
+  
+  # Run CloneProjectsJob at startup
+  config.after_initialize do
+    CloneProjectsJob.perform_later
+  end
 end
