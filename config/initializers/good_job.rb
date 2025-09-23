@@ -10,9 +10,11 @@ Rails.application.configure do
   config.good_job.enable_cron = Rails.env.production?
   config.good_job.cron_graceful_restart_period = 1.minute
   config.good_job.cron = {}
-  
-  # Run CloneProjectsJob at startup
+
+  # Run CloneProjectsJob only when the web server boots (not during assets:precompile, console, or rake)
   config.after_initialize do
-    CloneProjectsJob.perform_later
+    if defined?(Rails::Server)
+      CloneProjectsJob.perform_later
+    end
   end
 end
