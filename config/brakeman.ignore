@@ -1,0 +1,241 @@
+{
+  "ignored_warnings": [
+    {
+      "warning_type": "Cross-Site Scripting",
+      "warning_code": 2,
+      "fingerprint": "3a642f0cea49b48c25f9a97389e5751630c335f9b1429d0c8a8f788a0d1b8285",
+      "check_name": "CrossSiteScripting",
+      "message": "Unescaped model attribute",
+      "file": "app/views/admin/dashboard.html.erb",
+      "line": 7,
+      "link": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
+      "code": "ap(User.all)",
+      "render_path": [
+        {
+          "type": "controller",
+          "class": "AdminController",
+          "method": "dashboard",
+          "line": 9,
+          "file": "app/controllers/admin_controller.rb",
+          "rendered": {
+            "name": "admin/dashboard",
+            "file": "app/views/admin/dashboard.html.erb"
+          }
+        }
+      ],
+      "location": {
+        "type": "template",
+        "template": "admin/dashboard"
+      },
+      "user_input": "User.all",
+      "confidence": "Weak",
+      "cwe_id": [
+        79
+      ],
+      "note": "Admin-only debug output via awesome_print"
+    },
+    {
+      "warning_type": "File Access",
+      "warning_code": 16,
+      "fingerprint": "3c29e93824c8fdc2330cff904d88a7877f3a819a34ef5d0d5e1f657698204966",
+      "check_name": "FileAccess",
+      "message": "Parameter value used in file name",
+      "file": "app/controllers/markdown_controller.rb",
+      "line": 17,
+      "link": "https://brakemanscanner.org/docs/warning_types/file_access/",
+      "code": "File.read(Rails.root.join(\"app\", \"views\", controller_name, \"#{sanitize_page(params[:page])}.md\"))",
+      "render_path": null,
+      "location": {
+        "type": "method",
+        "class": "MarkdownController",
+        "method": "show"
+      },
+      "user_input": "params[:page]",
+      "confidence": "Weak",
+      "cwe_id": [
+        22
+      ],
+      "note": "Page parameter is sanitized via sanitize_page (allows only [a-zA-Z0-9_-])"
+    },
+    {
+      "warning_type": "Cross-Site Scripting",
+      "warning_code": 2,
+      "fingerprint": "625f8e9e420e360de645d7dbca82131193bc6defbe3ee06011b6e907ae8f8892",
+      "check_name": "CrossSiteScripting",
+      "message": "Unescaped model attribute",
+      "file": "app/views/admin/dashboard.html.erb",
+      "line": 10,
+      "link": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
+      "code": "ap(Post.all)",
+      "render_path": [
+        {
+          "type": "controller",
+          "class": "AdminController",
+          "method": "dashboard",
+          "line": 9,
+          "file": "app/controllers/admin_controller.rb",
+          "rendered": {
+            "name": "admin/dashboard",
+            "file": "app/views/admin/dashboard.html.erb"
+          }
+        }
+      ],
+      "location": {
+        "type": "template",
+        "template": "admin/dashboard"
+      },
+      "user_input": "Post.all",
+      "confidence": "Weak",
+      "cwe_id": [
+        79
+      ],
+      "note": "Admin-only debug output via awesome_print"
+    },
+    {
+      "warning_type": "Cross-Site Scripting",
+      "warning_code": 4,
+      "fingerprint": "6987a8caa111a6319fd55eafdc18706dd473a0a0e24cf5df02ddab634197a766",
+      "check_name": "LinkToHref",
+      "message": "Potentially unsafe model attribute in `link_to` href",
+      "file": "app/views/projects/index.html.erb",
+      "line": 38,
+      "link": "https://brakemanscanner.org/docs/warning_types/link_to_href",
+      "code": "link_to(Project.new.user_link, :target => \"_blank\", :class => \"text-[#96ABF9] inline-block\")",
+      "render_path": [
+        {
+          "type": "controller",
+          "class": "ProjectsController",
+          "method": "index",
+          "line": 8,
+          "file": "app/controllers/projects_controller.rb",
+          "rendered": {
+            "name": "projects/index",
+            "file": "app/views/projects/index.html.erb"
+          }
+        }
+      ],
+      "location": {
+        "type": "template",
+        "template": "projects/index"
+      },
+      "user_input": "Project.new.user_link",
+      "confidence": "Weak",
+      "cwe_id": [
+        79
+      ],
+      "note": "user_link is constructed from trusted GitHub data"
+    },
+    {
+      "warning_type": "Cross-Site Scripting",
+      "warning_code": 2,
+      "fingerprint": "92083c09b80d0d157d6e99c5bd186ad828261a7b1b0f8288392755430b3e7f19",
+      "check_name": "CrossSiteScripting",
+      "message": "Unescaped model attribute",
+      "file": "app/views/admin/dashboard.html.erb",
+      "line": 4,
+      "link": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
+      "code": "ap(Project.all)",
+      "render_path": [
+        {
+          "type": "controller",
+          "class": "AdminController",
+          "method": "dashboard",
+          "line": 9,
+          "file": "app/controllers/admin_controller.rb",
+          "rendered": {
+            "name": "admin/dashboard",
+            "file": "app/views/admin/dashboard.html.erb"
+          }
+        }
+      ],
+      "location": {
+        "type": "template",
+        "template": "admin/dashboard"
+      },
+      "user_input": "Project.all",
+      "confidence": "Weak",
+      "cwe_id": [
+        79
+      ],
+      "note": "Admin-only debug output via awesome_print"
+    },
+    {
+      "warning_type": "Cross-Site Scripting",
+      "warning_code": 2,
+      "fingerprint": "db28c99a66816d467d27bced7c10dbd9aa294778f1a45b80e582ae6094685812",
+      "check_name": "CrossSiteScripting",
+      "message": "Unescaped model attribute",
+      "file": "app/views/projects/show.html.erb",
+      "line": 8,
+      "link": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
+      "code": "Project.find(params[:user], params[:project_name]).content",
+      "render_path": [
+        {
+          "type": "controller",
+          "class": "ProjectsController",
+          "method": "show",
+          "line": 14,
+          "file": "app/controllers/projects_controller.rb",
+          "rendered": {
+            "name": "projects/show",
+            "file": "app/views/projects/show.html.erb"
+          }
+        }
+      ],
+      "location": {
+        "type": "template",
+        "template": "projects/show"
+      },
+      "user_input": "Project.find(params[:user], params[:project_name])",
+      "confidence": "High",
+      "cwe_id": [
+        79
+      ],
+      "note": "Project content is rendered markdown from trusted GitHub repo journals; html_safe is intentional"
+    },
+    {
+      "warning_type": "Cross-Site Scripting",
+      "warning_code": 4,
+      "fingerprint": "f31d3e02be32d2e2e6ccf6e7802539cb0027a5834fd68d511b534d0fe3adf669",
+      "check_name": "LinkToHref",
+      "message": "Potentially unsafe model attribute in `link_to` href",
+      "file": "app/views/projects/_header.html.erb",
+      "line": 18,
+      "link": "https://brakemanscanner.org/docs/warning_types/link_to_href",
+      "code": "link_to(Project.find(params[:user], params[:project_name]).user_link, :target => \"_blank\", :class => \"text-[#96ABF9] inline-block\")",
+      "render_path": [
+        {
+          "type": "controller",
+          "class": "ProjectsController",
+          "method": "show",
+          "line": 14,
+          "file": "app/controllers/projects_controller.rb",
+          "rendered": {
+            "name": "projects/show",
+            "file": "app/views/projects/show.html.erb"
+          }
+        },
+        {
+          "type": "template",
+          "name": "projects/show",
+          "rendered": {
+            "name": "projects/_header",
+            "file": "app/views/projects/_header.html.erb"
+          }
+        }
+      ],
+      "location": {
+        "type": "template",
+        "template": "projects/_header"
+      },
+      "user_input": "Project.find(params[:user], params[:project_name]).user_link",
+      "confidence": "Weak",
+      "cwe_id": [
+        79
+      ],
+      "note": "user_link is constructed from trusted GitHub data"
+    }
+  ],
+  "updated": "2026-05-11 10:21:00 -0400",
+  "brakeman_version": "8.0.4"
+}
